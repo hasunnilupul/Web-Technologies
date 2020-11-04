@@ -19,7 +19,8 @@
         <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/sidebar-themes.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> </head>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+    </head>
     <body>
         <div class="page-wrapper toggled light-theme">            
             <!-- Navigation Menu -->
