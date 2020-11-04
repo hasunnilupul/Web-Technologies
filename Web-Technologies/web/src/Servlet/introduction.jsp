@@ -1,9 +1,3 @@
-<%-- 
-    Document   : newjspintroduction
-    Created on : Nov 4, 2020, 11:03:49 PM
-    Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Database || Introduction</title>
+        <title>Servlet || Introduction</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
@@ -62,7 +56,7 @@
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li class="active"><a href="">Introduction</a> </li>
+                                        <li><a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
                                         <li> <a href="#">Sub Menu 2</a> </li>
                                         <li> <a href="#">Sub Menu 3</a> </li>
                                     </ul>
@@ -72,7 +66,7 @@
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Servlet</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li> <a href="${pageContext.request.contextPath}/servlet/introduction">Introduction</a> </li>
+                                        <li class="active"> <a href="">Introduction</a> </li>
                                         <li> <a href="#">Sub Menu 2</a> </li>
                                         <li> <a href="#">Sub Menu 3</a> </li>
                                     </ul>
@@ -98,7 +92,7 @@
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
                                     <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Database</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Servlet</li>
                                     <li class="breadcrumb-item active" aria-current="page">Introduction</li>
                                 </ol>
                             </nav>
@@ -106,18 +100,17 @@
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <h1 class="mb-2 mt-3">What is a Database</h1>
+                            <h1 class="mb-2 mt-3">What is a Servlet</h1>
                             <p>
-                                A database is a data structure that stores coordinated data. Most databases contain various tables, which may each incorporate a few unique fields. For instance, an organization database may incorporate tables for items, representatives, and money related records. Every one of these tables would have various fields that are applicable to the data put away in the table. 
+                                A servlet is a Java programming language class that is used to extend the capabilities of servers that host applications accessed by means of a request-response programming model. Although servlets can respond to any type of request, they are commonly used to extend the applications hosted by web servers.
+                                Servlets are the Java programs that runs on the Java-enabled web server or application server. They are used to handle the request obtained from the web server, process the request, produce the response, then send response back to the web server. Properties of Servlets : Servlets work on the server-side
+                                Simply put, a Servlet is a class that handles requests, processes them and reply back with a response. For example, we can use a Servlet to collect input from a user through an HTML form, query records from a database, and create web pages dynamically
                             </p>
                             <p>
-                                Practically all web based business locales utilizes databases to store item stock and client data. These destinations utilize a database management system (or DBMS, for example, Microsoft Access, FileMaker Pro, or MySQL as the "back end" to the site. By putting away site data in a database, the data can be handily looked, arranged, and refreshed. This adaptability is 
-                                significant for internet business destinations and different sorts of dynamic sites. 
+                                Servlets and JSPs are considered outdated technologies and no longer chosen for the new projects.
+                                These were found in use significantly for legacy projects. Servlet JSPs were used enormously in around 2000. With the popularity of emerging MVC frameworks likeStruts, Webwork, Spring etc.
                             </p>
-                            <p>
-                                Early databases were moderately "level," which implies they were restricted to basic rows and columns, similar to a bookkeeping page. (See additionally "level document database"). Nonetheless, the present relational databases permit clients to access, update, and search data dependent on the relationship of data put away in various tables. Relational databases can likewise
-                                run questions that include different databases. While early databases could just store text or numeric data, current databases likewise let clients store other data types, for example, sound clips, pictures, and video recordings.                            
-                            </p>
+                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/database-evalution-timeline.png"/>
 
                             <!-- Sep -->
                             <hr class="my-2">
@@ -130,7 +123,7 @@
                             <p>
                                 The two principle early navigational data models were the progressive model and the CODASYL model (network model). These were described by the utilization of pointers (frequently actual circle addresses) to follow relationships starting with one record then onto the next. 
                             </p>
-                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/database-evalution-timeline.png"/>
+                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/servlet-1.png"/>
                             <p>
                                 The relational model, first proposed in 1970 by Edgar F. Codd, left from this custom by demanding that applications should look for data by content, as opposed to by following connections. The relational model utilizes sets of record style tables, each utilized for an alternate kind of substance. Just during the 1980s did registering equipment become ground-breaking enough 
                                 to permit the wide organization of relational systems (DBMSs in addition to applications). By the mid 1990s, nonetheless, relational systems ruled in all enormous scope data handling applications, and starting at 2018 they stay prevailing: IBM DB2, Oracle, MySQL, and Microsoft SQL Server are the most looked through DBMS.[9] The predominant database language, normalized SQL 
@@ -151,7 +144,7 @@
                 </div>
             </main>
             <!-- page-content" -->
-            
+
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->

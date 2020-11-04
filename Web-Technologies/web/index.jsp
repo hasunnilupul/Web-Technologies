@@ -68,11 +68,15 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li>
-                                <a href="#"> <i class="fa fa-calendar"></i> <span class="menu-text">Menu 3</span> </a>
-                            </li>
-                            <li>
-                                <a href="#"> <i class="fa fa-folder"></i> <span class="menu-text">Menu 4</span> </a>
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Servlet</span></a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li> <a href="${pageContext.request.contextPath}/servlet/introduction">Introduction</a> </li>
+                                        <li> <a href="#">Sub Menu 2</a> </li>
+                                        <li> <a href="#">Sub Menu 3</a> </li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
                     </div>
