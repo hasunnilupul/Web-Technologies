@@ -44,7 +44,7 @@
                         <ul>
                             <li class="header-menu"> <span>Documentation</span> </li>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span> <span class="badge badge-pill badge-primary">4</span> </a>
+                                <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="#">Sub Menu 1</a> </li>
@@ -82,7 +82,7 @@
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
                                     <li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Next</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
                                 </ol>
                             </nav>
                         </div>
