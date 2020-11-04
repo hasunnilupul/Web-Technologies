@@ -27,7 +27,9 @@
             <nav id="sidebar" class="sidebar-wrapper">
                 <div class="sidebar-content">
                     <!-- sidebar-brand  -->
-                    <div class="sidebar-item sidebar-brand text-white font-weight-bold">Web Technologies</div>
+                    <a href="${pageContext.request.contextPath}/home">
+                        <div class="sidebar-item sidebar-brand text-white font-weight-bold">Web Technologies</div>
+                    </a>
                     <!-- sidebar-header  -->
                     <!-- sidebar-search  -->
                     <div class="sidebar-item sidebar-search">
@@ -91,14 +93,14 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Database</li>
                                     <li class="breadcrumb-item active" aria-current="page">Introduction</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
-                    <div class="row ml-2 mr-1">
+                    <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
                             <h1 class="mb-2 mt-3">What is a Database</h1>
                             <p>
@@ -135,6 +137,10 @@
                             </p>
                             <p>
                                 The up and coming age of post-relational databases in the last part of the 2000s got known as NoSQL databases, presenting quick key-esteem stores and archive arranged databases. A contending "future" known as NewSQL databases endeavored new usage that held the relational/SQL model while meaning to coordinate the elite of NoSQL contrasted with economically accessible relational DBMSs.
+                            </p>
+                            <img class="col-lg-6 col-xs-12 img-fluid" src="${pageContext.request.contextPath}/img/history of data models and databases.png"/>
+                            <p class="col-lg-6 col-md-12 col-xs-12 float-right">
+                                Databases are the place all your data is stored. It resembles a lot of file organizers with envelopes loaded up with records. Databases come fundamentally in two flavors: SQL and NoSQL. SQL furnishes more structure which assists with ensuring all the data is right and approved. NoSQL gives a ton of adaptability to building and looking after applications.
                             </p>
                         </article>
                     </div>
