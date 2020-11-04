@@ -97,8 +97,8 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="row col-lg-12">
-                        <article class="main-content col-md-12 col-xs-12">
+                    <div class="row ml-2 mr-1">
+                        <article class="main-content col-lg-12 col-md-12 col-xs-12">
                             <!-- title -Add bootstrap helpers for spacing -->
                             <h1 class="mb-2 mt-3">Introduction</h1>
                             <!--//title -->

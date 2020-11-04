@@ -60,7 +60,7 @@
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li> <a href="">Introduction</a> </li>
+                                        <li class="active"><a href="">Introduction</a> </li>
                                         <li> <a href="#">Sub Menu 2</a> </li>
                                         <li> <a href="#">Sub Menu 3</a> </li>
                                     </ul>
@@ -78,7 +78,7 @@
                 </div>
             </nav>
             <!-- Navigation Menu -->
-            
+
             <!-- page-content  -->
             <main class="page-content">
                 <div id="overlay" class="overlay"></div>
@@ -98,45 +98,44 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="row col-lg-12">
-                        <article class="main-content col-md-12 col-xs-12">
-                            <!-- title -Add bootstrap helpers for spacing -->
+                    <div class="row ml-2 mr-1">
+                        <article class="main-content col-lg-12 col-md-12 col-xs-12">
+                            <h1 class="mb-2 mt-3">What is a Database</h1>
+                            <p>
+                                A database is a data structure that stores coordinated data. Most databases contain various tables, which may each incorporate a few unique fields. For instance, an organization database may incorporate tables for items, representatives, and money related records. Every one of these tables would have various fields that are applicable to the data put away in the table. 
+                            </p>
+                            <p>
+                                Practically all web based business locales utilizes databases to store item stock and client data. These destinations utilize a database management system (or DBMS, for example, Microsoft Access, FileMaker Pro, or MySQL as the "back end" to the site. By putting away site data in a database, the data can be handily looked, arranged, and refreshed. This adaptability is 
+                                significant for internet business destinations and different sorts of dynamic sites. 
+                            </p>
+                            <p>
+                                Early databases were moderately "level," which implies they were restricted to basic rows and columns, similar to a bookkeeping page. (See additionally "level document database"). Nonetheless, the present relational databases permit clients to access, update, and search data dependent on the relationship of data put away in various tables. Relational databases can likewise
+                                run questions that include different databases. While early databases could just store text or numeric data, current databases likewise let clients store other data types, for example, sound clips, pictures, and video recordings.                            
+                            </p>
+
+                            <!-- Sep -->
+                            <hr class="my-2">
+
                             <h1 class="mb-2 mt-3">History</h1>
                             <p>
-                                MySQL AB, a Swedish organization is credited with being the author of MySQL database worker. Three designers: two Swedish, named David Axmark and Allan Larsson and one Finn, named Micheal Widenius, ordinarily known as "Monty" began chip away at the improvement of MySQL worker on May 23, 1995. The delivered the principal MySQL form on a similar date. 
-                                The 3.19 MySQL adaptation history dates to the furthest limit of 1996 from www.tcx.com. Also, the following large jump in MySQL worker rendition history was 4.0, delivered on March 2003. MySQL AB was later gained by Sun which was thusly obtained by Oracle Corporation. At present, MySQL worker is created, refreshed and kept up by Oracle Corporation and 8.0 variant is the most recent MySQL adaptation delivered on April 19, 2018. You can check the MySQL rendition, design, and RunTime factors through one order.
+                                The sizes, abilities, and execution of databases and their particular DBMSs have filled in significant degrees. These presentation increments were empowered by the innovation progress in the regions of processors, PC memory, PC stockpiling, and PC organizations. The idea of a database was made conceivable by the development of direct access stockpiling media, for example, 
+                                attractive plates, which turned out to be generally accessible during the 1960s; prior systems depended on consecutive capacity of data on attractive tape. The ensuing improvement of database innovation can be isolated into three periods dependent on data model or structure: navigational,[8] SQL/relational, and post-relational.
                             </p>
-                            <!-- Sep -->
-                            <hr class="my-5">
-                            <!-- alert -->
-                            <div class="alert alert-primary d-flex justify-content-start align-items-center" role="alert"> <span class="fa fa-info mr-4"></span>
-                                <p class="m-0"> This documentation is always evolving. If you've not been here for a while, perhaps check out the This documentation is always evolving.This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. </p>
-                            </div>
-                            <!-- heading -->
-                            <h3 class="font-weight-bold mb-2">
-                                Dev setup
-                            </h3>
-                            <p> To get started, you need to do the following: </p>
-                            <ol>
-                                <li><strong>Make sure you have Node installed</strong> since Landkit uses npm to manage dependencies. If you don't, installing is quite easy, just visit the <a href="https://nodejs.org/en/download/">Node Downloads page</a> and install it. </li>
-                                <li><strong>Unzip your theme and open your command line</strong>, making sure your command line prompt is at the root of the unzipped theme directory. </li>
-                                <li><strong class="badge badge-danger-soft"><code>npm install gulp-cli -g</code></strong>: If you don't have the Gulp command line interface, you need to install it.</li>
-                                <li><strong class="badge badge-danger-soft"><code>npm install</code></strong>: Open your command line to the root directory of your unzipped theme and run to install all of Landkit's dependencies.</li>
-                            </ol>
-                            <!-- Sep -->
-                            <hr class="my-5">
-                            <h3 class="font-weight-bold mb-2">
-                                Code example
-                            </h3>
-                            <p>The Prism source, highlighted with Prism (don’t you just love how meta this is?):</p>
-                            <p>The <a href="">recommended way to mark up a code block</a> (both for semantics and for Prism) is a <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pre</span><span class="token punctuation">&gt;</span></span></code> element with a <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">&gt;</span></span></code> element inside, like so:</p>
-                            <figure class="highlight"><pre>
-                                <code class="language-html" data-lang="html">
-                                    <span class="c">&lt;!-- As a link --&gt;</span>
-                                    <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-light bg-light"</span><span class="nt">&gt;</span>
-                                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Navbar<span class="nt">&lt;/a&gt;</span>
-                                    <span class="nt">&lt;/nav&gt;</span>
-                            </figure>
+                            <p>
+                                The two principle early navigational data models were the progressive model and the CODASYL model (network model). These were described by the utilization of pointers (frequently actual circle addresses) to follow relationships starting with one record then onto the next. 
+                            </p>
+                            <img class="col-lg-12 col-xs-12 img-fluid" src="${pageContext.request.contextPath}/img/database-evalution-timeline.png"/>
+                            <p>
+                                The relational model, first proposed in 1970 by Edgar F. Codd, left from this custom by demanding that applications should look for data by content, as opposed to by following connections. The relational model utilizes sets of record style tables, each utilized for an alternate kind of substance. Just during the 1980s did registering equipment become ground-breaking enough 
+                                to permit the wide organization of relational systems (DBMSs in addition to applications). By the mid 1990s, nonetheless, relational systems ruled in all enormous scope data handling applications, and starting at 2018 they stay prevailing: IBM DB2, Oracle, MySQL, and Microsoft SQL Server are the most looked through DBMS.[9] The predominant database language, normalized SQL 
+                                for the relational model, has affected database dialects for other data models.
+                            </p>
+                            <p>
+                                Item databases were created during the 1980s to defeat the bother of article relational impedance jumble, which prompted the instituting of the expression "post-relational" and furthermore the advancement of cross breed object-relational databases.
+                            </p>
+                            <p>
+                                The up and coming age of post-relational databases in the last part of the 2000s got known as NoSQL databases, presenting quick key-esteem stores and archive arranged databases. A contending "future" known as NewSQL databases endeavored new usage that held the relational/SQL model while meaning to coordinate the elite of NoSQL contrasted with economically accessible relational DBMSs.
+                            </p>
                         </article>
                     </div>
                 </div>
