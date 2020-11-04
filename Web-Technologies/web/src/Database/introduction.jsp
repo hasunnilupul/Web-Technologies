@@ -126,7 +126,7 @@
                             <p>
                                 The two principle early navigational data models were the progressive model and the CODASYL model (network model). These were described by the utilization of pointers (frequently actual circle addresses) to follow relationships starting with one record then onto the next. 
                             </p>
-                            <img class="col-lg-12 col-xs-12 img-fluid" src="${pageContext.request.contextPath}/img/database-evalution-timeline.png"/>
+                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/database-evalution-timeline.png"/>
                             <p>
                                 The relational model, first proposed in 1970 by Edgar F. Codd, left from this custom by demanding that applications should look for data by content, as opposed to by following connections. The relational model utilizes sets of record style tables, each utilized for an alternate kind of substance. Just during the 1980s did registering equipment become ground-breaking enough 
                                 to permit the wide organization of relational systems (DBMSs in addition to applications). By the mid 1990s, nonetheless, relational systems ruled in all enormous scope data handling applications, and starting at 2018 they stay prevailing: IBM DB2, Oracle, MySQL, and Microsoft SQL Server are the most looked through DBMS.[9] The predominant database language, normalized SQL 
@@ -138,7 +138,7 @@
                             <p>
                                 The up and coming age of post-relational databases in the last part of the 2000s got known as NoSQL databases, presenting quick key-esteem stores and archive arranged databases. A contending "future" known as NewSQL databases endeavored new usage that held the relational/SQL model while meaning to coordinate the elite of NoSQL contrasted with economically accessible relational DBMSs.
                             </p>
-                            <img class="col-lg-6 col-xs-12 img-fluid" src="${pageContext.request.contextPath}/img/history of data models and databases.png"/>
+                            <img class="col-lg-6 col-xs-12 img-fluid border-right border-left mb-2" src="${pageContext.request.contextPath}/img/history of data models and databases.png"/>
                             <p class="col-lg-6 col-md-12 col-xs-12 float-right">
                                 Databases are the place all your data is stored. It resembles a lot of file organizers with envelopes loaded up with records. Databases come fundamentally in two flavors: SQL and NoSQL. SQL furnishes more structure which assists with ensuring all the data is right and approved. NoSQL gives a ton of adaptability to building and looking after applications.
                             </p>
