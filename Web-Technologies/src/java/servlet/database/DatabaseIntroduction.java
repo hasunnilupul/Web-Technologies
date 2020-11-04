@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package servlet;
+package servlet.database;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -20,8 +20,7 @@ public class DatabaseIntroduction extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter out=resp.getWriter();
-        out.println("");
+        req.getRequestDispatcher("/src/Database/introduction.jsp").include(req, resp);
     }
 
 }

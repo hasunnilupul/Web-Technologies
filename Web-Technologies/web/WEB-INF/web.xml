@@ -6,7 +6,7 @@
     </servlet>
     <servlet>
         <servlet-name>DatabaseIntroduction</servlet-name>
-        <servlet-class>servlet.DatabaseIntroduction</servlet-class>
+        <servlet-class>servlet.database.DatabaseIntroduction</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>home</servlet-name>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Nov 4, 2020, 5:46:18 PM
+    Document   : newjspintroduction
+    Created on : Nov 4, 2020, 11:03:49 PM
     Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
 --%>
 
@@ -16,10 +16,10 @@
         <title>Web Technologies</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/sidebar-themes.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sidebar-themes.css">
+        <link rel="shortcut icon" type="image/png" href="${pageContext.request.contextPath}/img/favicon.png" /> 
     </head>
     <body>
         <div class="page-wrapper toggled light-theme">            
@@ -60,7 +60,7 @@
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li> <a href="database/introduction">Introduction</a> </li>
+                                        <li> <a href="">Introduction</a> </li>
                                         <li> <a href="#">Sub Menu 2</a> </li>
                                         <li> <a href="#">Sub Menu 3</a> </li>
                                     </ul>
@@ -91,8 +91,9 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
+                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Database</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Introduction</li>
                                 </ol>
                             </nav>
                         </div>
@@ -100,11 +101,11 @@
                     <div class="row col-lg-12">
                         <article class="main-content col-md-12 col-xs-12">
                             <!-- title -Add bootstrap helpers for spacing -->
-                            <h1 class="mb-2 mt-3">Introduction</h1>
-                            <!--//title -->
-                            <p class="lead mb-3"> How to get started with Docu! </p>
-                            <p>Thank you for downloading our themes! We really appreciate it and ready to help you!</p>
-                            <p> This guide will help you get started with the template! All the important stuff – compiling the source, file structure, build tools, file includes – is documented here, but should you have any questions, always feel free to reach out to info@sharebootstrap.com </p>
+                            <h1 class="mb-2 mt-3">History</h1>
+                            <p>
+                                MySQL AB, a Swedish organization is credited with being the author of MySQL database worker. Three designers: two Swedish, named David Axmark and Allan Larsson and one Finn, named Micheal Widenius, ordinarily known as "Monty" began chip away at the improvement of MySQL worker on May 23, 1995. The delivered the principal MySQL form on a similar date. 
+                                The 3.19 MySQL adaptation history dates to the furthest limit of 1996 from www.tcx.com. Also, the following large jump in MySQL worker rendition history was 4.0, delivered on March 2003. MySQL AB was later gained by Sun which was thusly obtained by Oracle Corporation. At present, MySQL worker is created, refreshed and kept up by Oracle Corporation and 8.0 variant is the most recent MySQL adaptation delivered on April 19, 2018. You can check the MySQL rendition, design, and RunTime factors through one order.
+                            </p>
                             <!-- Sep -->
                             <hr class="my-5">
                             <!-- alert -->
@@ -145,12 +146,12 @@
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="bootstrap/bootstrap.min.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/prism.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/popper.js"></script>
+        <script src="${pageContext.request.contextPath}/bootstrap/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/prism.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/main.js"></script>
     </body>
 
 </html>
