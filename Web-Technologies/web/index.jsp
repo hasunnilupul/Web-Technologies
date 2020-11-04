@@ -53,8 +53,15 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li>
-                                <a href="#"> <i class="fa fa-book"></i> <span class="menu-text">Menu 2</span> </a>
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li> <a href="database/introduction">Introduction</a> </li>
+                                        <li> <a href="#">Sub Menu 2</a> </li>
+                                        <li> <a href="#">Sub Menu 3</a> </li>
+                                    </ul>
+                                </div>
                             </li>
                             <li>
                                 <a href="#"> <i class="fa fa-calendar"></i> <span class="menu-text">Menu 3</span> </a>
