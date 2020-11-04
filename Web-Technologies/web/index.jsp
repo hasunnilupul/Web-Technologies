@@ -81,7 +81,7 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Active Link</li>
                                 </ol>
                             </nav>
