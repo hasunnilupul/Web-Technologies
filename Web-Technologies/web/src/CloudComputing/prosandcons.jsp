@@ -1,7 +1,7 @@
 <%-- 
-    Document   : index
-    Created on : Nov 4, 2020, 5:46:18 PM
-    Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
+    Document   : prosandcons
+    Created on : Nov 5, 2020, 10:19:30 AM
+    Author     : CASSIE
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,13 +13,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Web Technologies</title>
+        <title>Cloud Computing || Pros And Cons</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/sidebar-themes.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sidebar-themes.css">
+        <link rel="shortcut icon" type="image/png" href="${pageContext.request.contextPath}/img/favicon.png" /> 
     </head>
     <body>
         <div class="page-wrapper toggled light-theme">            
@@ -68,8 +68,7 @@
                                     </ul>
                                 </div>
                             </li>
-
-                            <!--Chamaa kolla home edition patn gamma-->
+                            <!--Chamaa kollage tika patangamma-->
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
@@ -87,11 +86,11 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!--Chamaa kolla home edition awasanaya
+                            <!--Chamaa kollage tika awasaanaya-->
                         </ul>
                     </div>
-                            <!-- sidebar-menu  -->
-                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
             </nav>
             <!-- Navigation Menu -->
 
@@ -107,17 +106,52 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
+                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Pross & Cons</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            
-                            <h3 style="center">Welcome</h3>
-                            
+                            <h1 class="mb-2 mt-3">Advantages of cloud computing</h1>
+                            <p>Cloud computing has so much advantages. Then most of companies switched their services on the cloud to expand the growth of the company. These are the advantages of the cloud computing.</p>
+
+                            <ul>
+                                <li>Backup and restore data</li>
+                                <p>If we stored data in cloud storage, we can easily backup and restore that data using its functions.</p>
+                                <li>Improved collaboration</li>
+                                <p>Cloud applications improve collaboration by allowing groups of people to quickly and easily share information and resources in the cloud platform.</p>
+                                <li>Excellent accessibility</li>
+                                <p>Cloud allows us to quickly and easily access store information anywhere, anytime in the whole world, using an internet connection. An internet cloud infrastructure increases organization productivity and efficiency by ensuring that our data is always accessible.</p>
+                                <li>Low maintenance cost</li>
+                                <p>Cloud computing reduces both hardware and software maintenance cost for the organization. The organization don’t need to handle in house data center to provide their services.</p>
+                                <li>Mobility</li>
+                                <p>Cloud computing allows us to easily access all cloud data via any device and anywhere in world.</p>
+                                <li>Services in pay to per user model.</li>
+                                <p>Cloud computing platforms offer lots of API’s, that can use by users by their needs.</p>
+                                <li>Unlimited storage capacity</li>
+                                <p>Cloud platforms offer a huge amount of storing capacity for storing data.</p>
+                                <li>Data security</li>
+                                <p>Data security is one of the biggest advantages of cloud computing. Cloud many advanced features related to security and ensures that data is securely stored and handled.</p>
+                            </ul>
+
+                            <!-- Sep -->
+                            <hr class="my-2">
+
+                            <h1 class="mb-2 mt-3">Disadvantages of cloud computing</h1>
+                            <p>Every good thing has little bad things. But it’s not much affect to the cloud computing. It’s all are general disadvantages in internet connected systems.</p>
+                            <ul>
+                                <li>Internet connectivity</li>
+                                <p>As you know, in cloud computing, every data (image, audio, video, etc.) is stored on the cloud, and we access these data through the cloud by using the internet connection. If you do not have good internet connectivity, you cannot access these data. However, we have no any other way to access data from the cloud.</p>
+                                <li>Vendor lock in</li>
+                                <p>Vendor lock-in is the biggest disadvantage of cloud computing. Organizations may face problems when transferring their services from one vendor to another. As different vendors provide different platforms, that can cause difficulty moving from one cloud to another.</p>
+                                <li>Limited control</li>
+                                <p>As we know, cloud infrastructure is completely owned, managed, and monitored by the service provider, so the cloud users have less control over the function and execution of services within a cloud infrastructure.</p>
+                                <li>Security</li>
+                                <p>Although cloud service providers implement the best security standards to store important information. But, before adopting cloud technology, you should be aware that you will be sending all your organization's sensitive information to a third party, i.e., a cloud computing service provider. While sending the data on the cloud, there may be a chance that your organization's information is hacked by Hackers.</p>
+                            </ul>
                         </article>
                     </div>
                 </div>
@@ -127,12 +161,12 @@
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="bootstrap/bootstrap.min.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/prism.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/popper.js"></script>
+        <script src="${pageContext.request.contextPath}/bootstrap/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/prism.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/main.js"></script>
     </body>
 
 </html>

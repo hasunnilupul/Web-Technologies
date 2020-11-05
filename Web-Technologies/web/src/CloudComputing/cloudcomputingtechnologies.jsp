@@ -1,9 +1,8 @@
 <%-- 
-    Document   : index
-    Created on : Nov 4, 2020, 5:46:18 PM
-    Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
+    Document   : cloudcomputingtechnologies
+    Created on : Nov 5, 2020, 10:22:55 AM
+    Author     : CASSIE
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,13 +12,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Web Technologies</title>
+        <title>Cloud Computing || Cloud Technologies</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/sidebar-themes.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sidebar-themes.css">
+        <link rel="shortcut icon" type="image/png" href="${pageContext.request.contextPath}/img/favicon.png" /> 
     </head>
     <body>
         <div class="page-wrapper toggled light-theme">            
@@ -48,7 +47,7 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
+                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
@@ -68,8 +67,7 @@
                                     </ul>
                                 </div>
                             </li>
-
-                            <!--Chamaa kolla home edition patn gamma-->
+                            <!--Chamaa kollage tika patangamma-->
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
@@ -87,11 +85,11 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!--Chamaa kolla home edition awasanaya
+                            <!--Chamaa kollage tika awasaanaya-->
                         </ul>
                     </div>
-                            <!-- sidebar-menu  -->
-                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
             </nav>
             <!-- Navigation Menu -->
 
@@ -107,17 +105,41 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
+                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing Technologies</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            
-                            <h3 style="center">Welcome</h3>
-                            
+                            <h1 class="mb-2 mt-3">Cloud computing technologies.</h1>
+                            <p>There are some technologies are used in cloud computing. These are,</p>
+                            <!-- Sep -->
+                            <hr class="my-2">
+
+                            <ul>
+                                <li>Virtualization</li>
+                                <p>The virtualization is the process of creating virtual environment to run multiple applications and operating systems on the same server machine. The virtual environment can be anything, such as a single instance or a combination of many operating systems, storage devices, network application servers, and other environments.
+                                    A virtualization is concept that create virtual machines, then it’s increased the use of virtual machines in cloud computing. Virtual machine is same as a physical machine but it runs on software layer. There are many types of virtualization types have to choose. These are
+                                </p>
+                                <li>Service oriented architecture (SOA)</li>
+                                <p>Service oriented Architecture allows organizations to access on-demand cloud-based computing solutions according to the change of business needs. The service-oriented architecture has many advantages. These are easy to maintain, platform independent, and highly scalable. Service oriented architecture has major two roles, these are Service provider and Service consumer. Service oriented architecture is used many areas, these are,</p>
+                                <ul>
+                                    <li>Health care industry.</li>
+                                    <li>Mobile applications.</li>
+                                    <li>Multiplayer games.</li>
+                                    <li>Situational awareness system.</li>
+                                </ul>
+                                <li>Grid computing</li>
+                                <p>Grid computing also known as distributed computing. It is a processor architecture that combines various different computing resources from multiple locations to achieve a common goal. In grid computing, grid is connected to another computer cluster, these clusters are in different sizes and can run on any operating system.</p>
+                                <li>Utility computing</li>
+                                <p>Utility computing is the most trending IT service model. It provides on-demand computing resources (computation, storage, and programming services via API) and infrastructure based on the pay per use method. It minimizes the associated costs and maximizes the efficient use of resources. The advantage of utility computing is that it reduced the IT cost, provides greater flexibility, and easier to manage.</p>
+                            </ul>
+
+                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/cloudcomputing/1_CdJSSwWglOA1TWp-FwM9OQ.jpeg"/>
+
                         </article>
                     </div>
                 </div>
@@ -127,12 +149,12 @@
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="bootstrap/bootstrap.min.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/prism.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/popper.js"></script>
+        <script src="${pageContext.request.contextPath}/bootstrap/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/prism.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/main.js"></script>
     </body>
 
 </html>

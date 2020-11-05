@@ -1,7 +1,7 @@
 <%-- 
-    Document   : index
-    Created on : Nov 4, 2020, 5:46:18 PM
-    Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
+    Document   : cloudservicemodel
+    Created on : Nov 5, 2020, 10:28:24 AM
+    Author     : CASSIE
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,13 +13,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Web Technologies</title>
+        <title>Cloud Computing || Cloud service models</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/sidebar-themes.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sidebar-themes.css">
+        <link rel="shortcut icon" type="image/png" href="${pageContext.request.contextPath}/img/favicon.png" /> 
     </head>
     <body>
         <div class="page-wrapper toggled light-theme">            
@@ -68,8 +68,7 @@
                                     </ul>
                                 </div>
                             </li>
-
-                            <!--Chamaa kolla home edition patn gamma-->
+                            <!--Chamaa kollage tika patangamma-->
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
@@ -87,11 +86,11 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!--Chamaa kolla home edition awasanaya
+                            <!--Chamaa kollage tika awasaanaya-->
                         </ul>
                     </div>
-                            <!-- sidebar-menu  -->
-                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
             </nav>
             <!-- Navigation Menu -->
 
@@ -107,17 +106,71 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
+                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud service models</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            
-                            <h3 style="center">Welcome</h3>
-                            
+                            <h1 class="mb-2 mt-3">Cloud service model</h1>
+                            <p>There are three types of cloud service models define in cloud computing technology. These are, </p>
+
+                            <ul>
+                                <li>Infrastructure as a service (Iaas)</li>
+                                <li>Platform as a service (PaaS)</li>
+                                <li>Software as a service (SaaS)</li>
+                            </ul>
+
+                            <p>Let's describe these models one by one.</p>
+
+                            <!-- Sep -->
+                            <hr class="my-2">
+
+                            <h1 class="mb-2 mt-3">Infrastructure as a service (IAAS)</h1>
+                            <p>This is a computing infrastructure managed over the internet. The main advantage of using Iaas is that it helps users to avoid the cost and complexity of purchasing and managing the physical servers.</p>
+                            <p>Characteristics of IAAS</p>
+                            <ul>
+                                <li>Resources are available as a service</li>
+                                <li>Services are highly scalable</li>
+                                <li>Dynamic and flexible</li>
+                                <li>GUI and API based access</li>
+                                <li>Automated administrative tasks</li>
+                            </ul>
+
+                            <p>E.g.: - Digital Ocean, Linode, Amazon web services (AWS), Microsoft azure, Google compute engine.</p>
+
+                            <h1 class="mb-2 mt-3">Platform as a service (PAAS)</h1>
+                            <p>This cloud computing platform is created for programmer to develop, test, run and manage the applications.</p>
+                            <p>Characteristics of PAAS</p>
+                            <ul>
+                                <li>Accessible to various users via the same development environment</li>
+                                <li>Integrates with web services and databases</li>
+                                <li>Built on virtualization technology</li>
+                                <li>Support multiple languages and frameworks</li>
+                                <li>Provides an ability to Auto-Scale</li>
+                            </ul>
+
+                            <p>E.g.: - AWS elastic bean stack, Windows Azure, Heroku, Google App Engine, Open Shift.</p>
+
+
+                            <h1 class="mb-2 mt-3">Software as Service (SAAS)</h1>
+                            <p>SaaS is also known as "on-demand software". It is a software in which the applications are hosted by a cloud service provider. Users can access these applications with the help of internet connection and web browser.</p>
+                            <p>Characteristics of SAAS</p>
+                            <ul>
+                                <li>Manage from central location</li>
+                                <li>Hosted on remote server</li>
+                                <li>Accessible over the internet</li>
+                                <li>Users are not responsible for hardware and software updates.</li>
+                                <li>The service is purchased on the pay as per use basis.</li>
+                            </ul>
+
+                            <p>E.g.: - Google Apps, Salesforce, Dropbox, Zendex, Cisco WebEx</p>
+
+                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/cloudcomputing/large-visual2.png"/>
+
                         </article>
                     </div>
                 </div>
@@ -127,12 +180,12 @@
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="bootstrap/bootstrap.min.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/prism.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/popper.js"></script>
+        <script src="${pageContext.request.contextPath}/bootstrap/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/prism.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/main.js"></script>
     </body>
 
 </html>

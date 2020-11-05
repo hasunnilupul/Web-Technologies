@@ -1,7 +1,7 @@
 <%-- 
-    Document   : index
-    Created on : Nov 4, 2020, 5:46:18 PM
-    Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
+    Document   : cloudcomputingrisk
+    Created on : Nov 5, 2020, 10:26:23 AM
+    Author     : CASSIE
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,13 +13,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Web Technologies</title>
+        <title>Cloud Computing || Risks</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/sidebar-themes.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sidebar-themes.css">
+        <link rel="shortcut icon" type="image/png" href="${pageContext.request.contextPath}/img/favicon.png" /> 
     </head>
     <body>
         <div class="page-wrapper toggled light-theme">            
@@ -68,8 +68,7 @@
                                     </ul>
                                 </div>
                             </li>
-
-                            <!--Chamaa kolla home edition patn gamma-->
+                            <!--Chamaa kollage tika patangamma-->
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
@@ -87,11 +86,11 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!--Chamaa kolla home edition awasanaya
+                            <!--Chamaa kollage tika awasaanaya-->
                         </ul>
                     </div>
-                            <!-- sidebar-menu  -->
-                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
             </nav>
             <!-- Navigation Menu -->
 
@@ -107,17 +106,39 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
+                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing Risks</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            
-                            <h3 style="center">Welcome</h3>
-                            
+                            <h1 class="mb-2 mt-3">Security risks of cloud computing</h1>
+                            <p>Cloud computing provide better security for the data, but sometimes it has some security issues.</p>
+                            <!-- Sep -->
+                            <hr class="my-2">
+
+                            <ul>
+                                <li>Data Loses</li>
+                                <p>Data loss is the common cloud security risk of the cloud computing. It also known as data leakage. Data loss is the process in which data is being deleted, corrupted, and unreadable by a user, software or application. In a cloud computing environment data loses is occurs when our sensitive data is somebody else’s hands, one or more data elements can not be utilized by the data owner, hard disk is not working properly or any software is not updated.</p>
+                                <li>Hacked interface and insecure APIs</li>
+                                <p>Cloud computing is completely depending on internet, so it is compulsory thing to protect interfaces and APIs from external users. APIs are the easiest way to communicate with most of cloud services. In cloud computing, few services are available in the public domain. These services can be accessed by third parties, so then may be a chance that these services easily harmed and hacked by hackers.</p>
+                                <li>Data breach</li>
+                                <p>Data breach is the process, which the confidential data is viewed, accessed, or stolen by the third party without any authorization.</p>
+                                <li>Vendor lock in</li>
+                                <p>Vendor lock-in is the of the biggest security risks in cloud computing. Organizations may face problems when transferring their services from one vendor to another. As different vendors provide different platforms, that can cause difficulty moving one cloud to another.</p>
+                                <li>Increased complexity strains IT staff</li>
+                                <p>Migrating, integrating, and operating the cloud services is complex for the IT staff. IT staff must require the extra capability and skills to manage, integrate, and maintain the data to the cloud.</p>
+                                <li>Spectre and meltdown</li>
+                                <p>Spectre & Meltdown allows programs to view and steal data which is currently processed on computer. It can run on personal computers, mobile devices, and in the cloud. It can store the password, your personal information such as images, emails, and business documents in the memory of other running programs.</p>
+                                <li>Denial of service</li>
+                                <p>Denial of service (DoS) attacks occur when the system receives too much traffic to buffer the server. Mostly, DoS attackers target web servers of large organizations such as banking sectors, media companies, and government organizations. To recover the lost data, DoS attackers charge a great deal of time and money to handle the data.</p>
+                                <li>Account hijacking</li>
+                                <p>Account hijacking is a serious security risk in cloud computing. It is the process in which individual user's or organization's cloud account (bank account, e-mail account, and social media account) is stolen by hackers. The hackers use the stolen account to perform unauthorized activities.</p>
+                            </ul>
+
                         </article>
                     </div>
                 </div>
@@ -127,12 +148,12 @@
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="bootstrap/bootstrap.min.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/prism.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/popper.js"></script>
+        <script src="${pageContext.request.contextPath}/bootstrap/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/prism.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/main.js"></script>
     </body>
 
 </html>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!--Servlet Area-->
     <servlet>
         <servlet-name>home</servlet-name>
         <servlet-class>servlet.Home</servlet-class>
@@ -32,6 +33,53 @@
         <servlet-name>DatabaseTypes</servlet-name>
         <servlet-class>servlet.database.DatabaseTypes</servlet-class>
     </servlet>
+    
+    <!--Chamaa Island-->
+    <servlet>
+        <servlet-name>CloudComputingIntroduction</servlet-name>
+        <servlet-class>servlet.cloudcomputing.CloudComputingIntroduction</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>WhyUseCloudComputing</servlet-name>
+        <servlet-class>servlet.cloudcomputing.WhyUseCloudComputing</servlet-class>
+    </servlet>
+    
+    <!--Aluth tika-->
+    
+    <servlet>
+        <servlet-name>UsesOfCloudComputing</servlet-name>
+        <servlet-class>servlet.cloudcomputing.UsesOfCloudComputing</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProssAndCons</servlet-name>
+        <servlet-class>servlet.cloudcomputing.ProssAndCons</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CloudComputingArchitecture</servlet-name>
+        <servlet-class>servlet.cloudcomputing.CloudComputingArchitecture</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CloudComputingTechnologies</servlet-name>
+        <servlet-class>servlet.cloudcomputing.CloudComputingTechnologies</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ApplicationsOfCloudComputing</servlet-name>
+        <servlet-class>servlet.cloudcomputing.ApplicationsOfCloudComputing</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CloudComputingRisk</servlet-name>
+        <servlet-class>servlet.cloudcomputing.CloudComputingRisk</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CloudComputingTypes</servlet-name>
+        <servlet-class>servlet.cloudcomputing.CloudComputingTypes</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CloudServiceModel</servlet-name>
+        <servlet-class>servlet.cloudcomputing.CloudServiceModel</servlet-class>
+    </servlet>
+    
+    <!--Servlet Mapping Area-->
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -64,6 +112,53 @@
         <servlet-name>DatabaseTypes</servlet-name>
         <url-pattern>/database/types-of-technologies</url-pattern>
     </servlet-mapping>
+    
+    <!--Chamaa Island-->
+    <servlet-mapping>
+        <servlet-name>CloudComputingIntroduction</servlet-name>
+        <url-pattern>/cloudcomputing/introduction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>WhyUseCloudComputing</servlet-name>
+        <url-pattern>/cloudcomputing/whyusecloudcomputing</url-pattern>
+    </servlet-mapping>
+    
+    <!--Aluth tika-->
+    
+    <servlet-mapping>
+        <servlet-name>UsesOfCloudComputing</servlet-name>
+        <url-pattern>/cloudcomputing/usesofcloudcomputing</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProssAndCons</servlet-name>
+        <url-pattern>/cloudcomputing/prosandcons</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CloudComputingArchitecture</servlet-name>
+        <url-pattern>/cloudcomputing/cloudcomputingarchitecture</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CloudComputingTechnologies</servlet-name>
+        <url-pattern>/cloudcomputing/cloudcomputingtechnologies</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ApplicationsOfCloudComputing</servlet-name>
+        <url-pattern>/cloudcomputing/applicationsofcloudcomputing</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CloudComputingRisk</servlet-name>
+        <url-pattern>/cloudcomputing/cloudcomputingrisk</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CloudComputingTypes</servlet-name>
+        <url-pattern>/cloudcomputing/cloudcomputingtypes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CloudServiceModel</servlet-name>
+        <url-pattern>/cloudcomputing/cloudservicemodel</url-pattern>
+    </servlet-mapping>
+    
+    <!--Pissu Area eka-->
     <session-config>
         <session-timeout>
             30

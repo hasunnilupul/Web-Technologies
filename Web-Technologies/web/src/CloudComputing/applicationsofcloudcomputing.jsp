@@ -1,9 +1,8 @@
 <%-- 
-    Document   : index
-    Created on : Nov 4, 2020, 5:46:18 PM
-    Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
+    Document   : applicationsofcloudcomputing
+    Created on : Nov 5, 2020, 10:25:40 AM
+    Author     : CASSIE
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,13 +12,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Web Technologies</title>
+        <title>Cloud Computing || Applications of cloud computing</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/sidebar-themes.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sidebar-themes.css">
+        <link rel="shortcut icon" type="image/png" href="${pageContext.request.contextPath}/img/favicon.png" /> 
     </head>
     <body>
         <div class="page-wrapper toggled light-theme">            
@@ -68,8 +67,7 @@
                                     </ul>
                                 </div>
                             </li>
-
-                            <!--Chamaa kolla home edition patn gamma-->
+                            <!--Chamaa kollage tika patangamma-->
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
@@ -87,11 +85,11 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!--Chamaa kolla home edition awasanaya
+                            <!--Chamaa kollage tika awasaanaya-->
                         </ul>
                     </div>
-                            <!-- sidebar-menu  -->
-                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
             </nav>
             <!-- Navigation Menu -->
 
@@ -107,17 +105,78 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
+                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Applications of cloud computing</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            
-                            <h3 style="center">Welcome</h3>
-                            
+                            <h1 class="mb-2 mt-3">Applications of Cloud Computing</h1>
+                            <p>
+                                Cloud service providers provide various applications in the field of art, business, data storage, education, entertainment, management and social networking etc. these are some examples for the applications of the cloud computing<p>
+                                <!-- Sep -->
+                            <hr class="my-2">
+
+                            <ol>
+                                <li>Art applications
+                                    <ul>
+                                        <li>Moo</li>
+                                        <li>Vistaprint</li>
+                                        <li>Adobe creative cloud</li>
+                                    </ul>
+                                </li>
+                                <li>Business applications
+                                    <ul>
+                                        <li>Salesforce</li>
+                                        <li>Bitrix24</li>
+                                        <li>Paypal</li>
+                                        <li>Slack</li>
+                                        <li>QuickBooks</li>
+                                    </ul>
+                                </li>
+                                <li>Data storage services
+                                    <ul>
+                                        <li>Box.com</li>
+                                        <li>Mozy</li>
+                                        <li>Joukuu</li>
+                                        <li>Google G Suite</li>
+                                    </ul>
+                                </li>
+                                <li>Education applications
+                                    <ul>
+                                        <li>Google apps for education</li>
+                                        <li>Chromebook for education</li>
+                                        <li>Tablets with google play for education</li>
+                                        <li>AWS in education</li>
+                                    </ul>
+                                </li>
+                                <li>Entertainment applications
+                                    <ul>
+                                        <li>Online games</li>
+                                        <li>Video conferencing apps</li>
+                                        <li>Netflix</li>
+                                    </ul>
+                                </li>
+                                <li>Management applications
+                                    <ul>
+                                        <li>Toggl</li>
+                                        <li>Evernote</li>
+                                        <li>Outright</li>
+                                        <li>GoToMeeting</li>
+                                    </ul>
+                                </li>
+                                <li>Social applications
+                                    <ul>
+                                        <li>Facebook</li>
+                                        <li>Twitter</li>
+                                        <li>Yammer</li>
+                                        <li>linkedin</li>
+                                    </ul>
+                                </li>
+                            </ol>
                         </article>
                     </div>
                 </div>
@@ -127,12 +186,12 @@
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="bootstrap/bootstrap.min.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/prism.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/popper.js"></script>
+        <script src="${pageContext.request.contextPath}/bootstrap/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/prism.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/main.js"></script>
     </body>
 
 </html>
