@@ -1,9 +1,8 @@
 <%-- 
-    Document   : introduction
-    Created on : Nov 5, 2020, 8:25:08 AM
+    Document   : cloudcomputingarchitecture
+    Created on : Nov 5, 2020, 10:20:33 AM
     Author     : CASSIE
 --%>
-
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,7 +13,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Cloud Computing || Introduction</title>
+        <title>Cloud Computing || Architecture</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
@@ -49,7 +48,7 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Database</span></a>
+                                <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
@@ -109,39 +108,69 @@
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
                                     <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Cloud Computing</li>
-                                    <li class="breadcrumb-item active" aria-current="page">Introduction</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing Architecture</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <h1 class="mb-2 mt-3">What is a Cloud Computing</h1>
+                            <h1 class="mb-2 mt-3">Cloud computing architecture</h1>
                             <p>
-                                In the 21 centaury, cloud computing is a familiar word to every human in the planet. Most of them use cloud computing for their daily bases or some people user cloud computing know or unknown. That is, if we use mobile phone, we use cloud computing, if we use desktop, laptop also we use cloud computing, if we use bus ticket, train ticket or even we buy a food we use cloud computing. That because most of electronical devices in the world are connected to the internet, then these devices perform data retrieving or sending data to another device or service. That’s the revolution of cloud computing</p>
-                            <p>
-                                Cloud computing basically provide these things, data storage and computing power to process data from anywhere in world and anytime in a day. Providers of these services handle data centers to store data of users. This topic is talk later in this document</p>
-
+                                Cloud computing is used by both small and large organizations to store the information in cloud and access it from anywhere at anytime using the internet connectivity. The cloud computing architecture is a combination of service-oriented architecture and event-driven architecture. Basically, cloud computing architecture is divided into the following two parts</p>
                             <!-- Sep -->
                             <hr class="my-2">
 
-                            <h1 class="mb-2 mt-3">History</h1>
-                            <p>
-                                Concept of cloud computing is not a 21-century thing, it goes early 1960. The companies like IBM and DEC develop system to share files and provide computational power to the process that data to different organizations. This concept like modern cloud computing concept. But modern cloud computing technology much larger concept than that</p>
-
-                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/cloudcomputing/cloud-computing.png"/>
-
-                            <h4 class="mb-2 mt-2">Examples of Cloud Computing Services</h4>
-                            <p>
-                                Nowadays, we can find lot's of cloud computing services in world. these are.
-                            </p>
                             <ul>
-                                <li>Microsoft Azure</li>
-                                <li>Amazon Web Services</li>
-                                <li>Alibaba Cloud</li>
-                                <li>Tencent Cloud</li>
-                                <li>Google Cloud Platform</li>
+                                <li>Front end</li>
+                                <p>The front end is used by the client. It contains client-side interfaces and applications that are required to access the cloud computing platforms. The front end includes web servers, clients, tablets, mobile devices and web browsers.</p>
+                                <li>Back end</li>
+                                <p>The back end is used by the service provider. It manages all the resources that are required to provide cloud computing services. It includes a huge amount of data storage, security mechanism, virtual machines, deploying models, servers, traffic control mechanism, hypervisors, etc.</p>
                             </ul>
+
+                            <hr class="my-2">
+                            <h4 class="mb-2 mt-2">Components of cloud computing architecture</h4>
+                            <p>
+                                There some basic cloud computing components in its architecture.</p>
+
+                            <ul>
+                                <li>Client infrastructure</li>
+                                <p>Client infrastructure is a front-end component. It provides GUI to interact with the cloud platform.</p>
+                                <li>Application</li>
+                                <p>The application may be any software platform that a client wants to access.</p>
+                                <li>Service</li>
+                                <p>A cloud services manages that which type of service you access according to the client’s requirement. Cloud computing offers the following three types of services.</p>
+
+                                <ol>
+                                    <li>Software as a service (SAAS) </li>
+                                    <p>SAAS is also knows as cloud application services. Mostly SaaS application run directly through the web browser means we do not require to download and install these applications. Some important example of SaaS is given below.
+                                        E.g.: - Slack, HubSpot, Cisco WebEx
+                                    </p>
+                                    <li>Platform as a service (PAAS)</li>
+                                    <p>PAAS is also known as cloud platform services. It is quite similar to SAAS, but the difference is that PAAS provides a platform for software creation, but using SAAS, we can access software over the internet without the need of any platform.
+                                        E.g.: - Azure, OpenShift, Magneto Commerce cloud
+                                    </p>
+                                    <li>Infrastructure as a service (IAAS)</li>
+                                    <p>IAAS is also known as cloud infrastructure services. It is responsible for managing applications data, middleware, and runtime environments.
+                                        E.g.: -AWS EC2, Google Compute engine, Cisco metapod. 
+                                    </p>
+                                </ol>
+                                <li>Runtime Cloud</li>
+                                <p>This provides the execution and runtime environment to the virtual machines.</p>
+                                <li>Storage</li>
+                                <p>This is a most important components of cloud computing. It provides a huge amount storage capacity in the cloud to store and manage data.</p>
+                                <li>Infrastructure</li>
+                                <p>It provides services on the host level, application level, and network level. Cloud infrastructure includes hardware and software components such as servers, storage, network devices, virtualization software, and other storage resources that are needed to support the cloud computing model.</p>
+                                <li>Management</li>
+                                <p>Management is used to manage components such as application, service, runtime cloud, storage, infrastructure, and other security issues in the backend and establish coordination between them.</p>
+                                <li>Security</li>
+                                <p>Security is an in-built back end component of cloud computing. It implements a security mechanism in the back end.</p>
+                                <li>Internet</li>
+                                <p>The internet is medium through which front end and back end can interact and communicate with each other.</p>
+                            </ul>
+
+                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/cloudcomputing/1_UPZpvJdMaIb4hnUoHu0Odg.png"/>
+
                         </article>
                     </div>
                 </div>

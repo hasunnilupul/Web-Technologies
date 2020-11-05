@@ -1,9 +1,8 @@
 <%-- 
-    Document   : introduction
-    Created on : Nov 5, 2020, 8:25:08 AM
+    Document   : cloudcomputingrisk
+    Created on : Nov 5, 2020, 10:26:23 AM
     Author     : CASSIE
 --%>
-
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,7 +13,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Cloud Computing || Introduction</title>
+        <title>Cloud Computing || Risks</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
@@ -49,7 +48,7 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Database</span></a>
+                                <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
@@ -109,39 +108,37 @@
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
                                     <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Cloud Computing</li>
-                                    <li class="breadcrumb-item active" aria-current="page">Introduction</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cloud Computing Risks</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <h1 class="mb-2 mt-3">What is a Cloud Computing</h1>
-                            <p>
-                                In the 21 centaury, cloud computing is a familiar word to every human in the planet. Most of them use cloud computing for their daily bases or some people user cloud computing know or unknown. That is, if we use mobile phone, we use cloud computing, if we use desktop, laptop also we use cloud computing, if we use bus ticket, train ticket or even we buy a food we use cloud computing. That because most of electronical devices in the world are connected to the internet, then these devices perform data retrieving or sending data to another device or service. That’s the revolution of cloud computing</p>
-                            <p>
-                                Cloud computing basically provide these things, data storage and computing power to process data from anywhere in world and anytime in a day. Providers of these services handle data centers to store data of users. This topic is talk later in this document</p>
-
+                            <h1 class="mb-2 mt-3">Security risks of cloud computing</h1>
+                            <p>Cloud computing provide better security for the data, but sometimes it has some security issues.</p>
                             <!-- Sep -->
                             <hr class="my-2">
 
-                            <h1 class="mb-2 mt-3">History</h1>
-                            <p>
-                                Concept of cloud computing is not a 21-century thing, it goes early 1960. The companies like IBM and DEC develop system to share files and provide computational power to the process that data to different organizations. This concept like modern cloud computing concept. But modern cloud computing technology much larger concept than that</p>
-
-                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/cloudcomputing/cloud-computing.png"/>
-
-                            <h4 class="mb-2 mt-2">Examples of Cloud Computing Services</h4>
-                            <p>
-                                Nowadays, we can find lot's of cloud computing services in world. these are.
-                            </p>
                             <ul>
-                                <li>Microsoft Azure</li>
-                                <li>Amazon Web Services</li>
-                                <li>Alibaba Cloud</li>
-                                <li>Tencent Cloud</li>
-                                <li>Google Cloud Platform</li>
+                                <li>Data Loses</li>
+                                <p>Data loss is the common cloud security risk of the cloud computing. It also known as data leakage. Data loss is the process in which data is being deleted, corrupted, and unreadable by a user, software or application. In a cloud computing environment data loses is occurs when our sensitive data is somebody else’s hands, one or more data elements can not be utilized by the data owner, hard disk is not working properly or any software is not updated.</p>
+                                <li>Hacked interface and insecure APIs</li>
+                                <p>Cloud computing is completely depending on internet, so it is compulsory thing to protect interfaces and APIs from external users. APIs are the easiest way to communicate with most of cloud services. In cloud computing, few services are available in the public domain. These services can be accessed by third parties, so then may be a chance that these services easily harmed and hacked by hackers.</p>
+                                <li>Data breach</li>
+                                <p>Data breach is the process, which the confidential data is viewed, accessed, or stolen by the third party without any authorization.</p>
+                                <li>Vendor lock in</li>
+                                <p>Vendor lock-in is the of the biggest security risks in cloud computing. Organizations may face problems when transferring their services from one vendor to another. As different vendors provide different platforms, that can cause difficulty moving one cloud to another.</p>
+                                <li>Increased complexity strains IT staff</li>
+                                <p>Migrating, integrating, and operating the cloud services is complex for the IT staff. IT staff must require the extra capability and skills to manage, integrate, and maintain the data to the cloud.</p>
+                                <li>Spectre and meltdown</li>
+                                <p>Spectre & Meltdown allows programs to view and steal data which is currently processed on computer. It can run on personal computers, mobile devices, and in the cloud. It can store the password, your personal information such as images, emails, and business documents in the memory of other running programs.</p>
+                                <li>Denial of service</li>
+                                <p>Denial of service (DoS) attacks occur when the system receives too much traffic to buffer the server. Mostly, DoS attackers target web servers of large organizations such as banking sectors, media companies, and government organizations. To recover the lost data, DoS attackers charge a great deal of time and money to handle the data.</p>
+                                <li>Account hijacking</li>
+                                <p>Account hijacking is a serious security risk in cloud computing. It is the process in which individual user's or organization's cloud account (bank account, e-mail account, and social media account) is stolen by hackers. The hackers use the stolen account to perform unauthorized activities.</p>
                             </ul>
+
                         </article>
                     </div>
                 </div>

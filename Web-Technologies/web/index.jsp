@@ -48,16 +48,6 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
-                                <div class="sidebar-submenu">
-                                    <ul>
-                                        <li> <a href="#">Sub Menu 1</a> </li>
-                                        <li> <a href="#">Sub Menu 2</a> </li>
-                                        <li> <a href="#">Sub Menu 3</a> </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
@@ -81,12 +71,19 @@
 
                             <!--Chamaa kolla home edition patn gamma-->
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-file"></i> <span class="menu-text">Cloud Computing</span></a>
+                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/cloudcomputing/introduction">Introduction</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/">Why we use cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/">Cloud computing</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/whyusecloudcomputing">Why we use cloud computing</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/usesofcloudcomputing">Uses of cloud computing</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/prosandcons">Pros and Cons</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingarchitecture">Cloud Computing Architecture</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtechnologies">Cloud Computing Technologies</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/applicationsofcloudcomputing">Applications of cloud computing</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingrisk">Cloud Computing Risk</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtypes">Cloud computing types</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudservicemodel">Cloud service model</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -118,49 +115,15 @@
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <!-- title -Add bootstrap helpers for spacing -->
-                            <h1 class="mb-2 mt-3">Introduction</h1>
-                            <!--//title -->
-                            <p class="lead mb-3"> How to get started with Docu! </p>
-                            <p>Thank you for downloading our themes! We really appreciate it and ready to help you!</p>
-                            <p> This guide will help you get started with the template! All the important stuff – compiling the source, file structure, build tools, file includes – is documented here, but should you have any questions, always feel free to reach out to info@sharebootstrap.com </p>
-                            <!-- Sep -->
-                            <hr class="my-5">
-                            <!-- alert -->
-                            <div class="alert alert-primary d-flex justify-content-start align-items-center" role="alert"> <span class="fa fa-info mr-4"></span>
-                                <p class="m-0"> This documentation is always evolving. If you've not been here for a while, perhaps check out the This documentation is always evolving.This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. </p>
-                            </div>
-                            <!-- heading -->
-                            <h3 class="font-weight-bold mb-2">
-                                Dev setup
-                            </h3>
-                            <p> To get started, you need to do the following: </p>
-                            <ol>
-                                <li><strong>Make sure you have Node installed</strong> since Landkit uses npm to manage dependencies. If you don't, installing is quite easy, just visit the <a href="https://nodejs.org/en/download/">Node Downloads page</a> and install it. </li>
-                                <li><strong>Unzip your theme and open your command line</strong>, making sure your command line prompt is at the root of the unzipped theme directory. </li>
-                                <li><strong class="badge badge-danger-soft"><code>npm install gulp-cli -g</code></strong>: If you don't have the Gulp command line interface, you need to install it.</li>
-                                <li><strong class="badge badge-danger-soft"><code>npm install</code></strong>: Open your command line to the root directory of your unzipped theme and run to install all of Landkit's dependencies.</li>
-                            </ol>
-                            <!-- Sep -->
-                            <hr class="my-5">
-                            <h3 class="font-weight-bold mb-2">
-                                Code example
-                            </h3>
-                            <p>The Prism source, highlighted with Prism (don’t you just love how meta this is?):</p>
-                            <p>The <a href="">recommended way to mark up a code block</a> (both for semantics and for Prism) is a <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pre</span><span class="token punctuation">&gt;</span></span></code> element with a <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">&gt;</span></span></code> element inside, like so:</p>
-                            <figure class="highlight"><pre>
-                                <code class="language-html" data-lang="html">
-                                    <span class="c">&lt;!-- As a link --&gt;</span>
-                                    <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-light bg-light"</span><span class="nt">&gt;</span>
-                                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Navbar<span class="nt">&lt;/a&gt;</span>
-                                    <span class="nt">&lt;/nav&gt;</span>
-                            </figure>
+                            
+                            <h3 style="center">Welcome</h3>
+                            
                         </article>
                     </div>
                 </div>
             </main>
             <!-- page-content" -->
-            
+
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->
