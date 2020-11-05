@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package servlet;
+package servlet.cloudcomputing;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -13,12 +13,12 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author Hasun Nilupul <hasunnilupul16@gmail.com>
+ * @author CASSIE
  */
-public class Home extends HttpServlet {
+public class CloudComputingIntroduction extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/index.jsp").include(req, resp);
+        req.getRequestDispatcher("/src/CloudComputing/introduction.jsp").include(req, resp);
     }
 }

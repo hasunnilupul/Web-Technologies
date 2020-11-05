@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package servlet;
+package servlet.database;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,12 +16,11 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Hasun Nilupul <hasunnilupul16@gmail.com>
  */
-public class DatabaseIntroduction extends HttpServlet {
-
+public class DatabaseTypes extends HttpServlet {
+    
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter out=resp.getWriter();
-        out.println("");
+        req.getRequestDispatcher("/src/Database/types-of-technologies.jsp").include(req, resp);
     }
-
+    
 }
