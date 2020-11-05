@@ -63,12 +63,13 @@
                                 </div>
                             </li>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Servlet</span></a>
+                                <a href="#"> <i class="fa fa-file"></i> <span class="menu-text">Servlet</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li class="active"> <a href="">Introduction</a> </li>
-                                        <li> <a href="#">Sub Menu 2</a> </li>
-                                        <li> <a href="#">Sub Menu 3</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/servlet/introduction">Introduction</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/servlet/lifecycle">Life Cycle</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/servlet/service-get-post">Service() | doGet() | doPost()</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/servlet/generic-servlet">Generic Servlet</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -110,35 +111,7 @@
                                 Servlets and JSPs are considered outdated technologies and no longer chosen for the new projects.
                                 These were found in use significantly for legacy projects. Servlet JSPs were used enormously in around 2000. With the popularity of emerging MVC frameworks likeStruts, Webwork, Spring etc.
                             </p>
-                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/database-evalution-timeline.png"/>
-
-                            <!-- Sep -->
-                            <hr class="my-2">
-
-                            <h1 class="mb-2 mt-3">History</h1>
-                            <p>
-                                The sizes, abilities, and execution of databases and their particular DBMSs have filled in significant degrees. These presentation increments were empowered by the innovation progress in the regions of processors, PC memory, PC stockpiling, and PC organizations. The idea of a database was made conceivable by the development of direct access stockpiling media, for example, 
-                                attractive plates, which turned out to be generally accessible during the 1960s; prior systems depended on consecutive capacity of data on attractive tape. The ensuing improvement of database innovation can be isolated into three periods dependent on data model or structure: navigational,[8] SQL/relational, and post-relational.
-                            </p>
-                            <p>
-                                The two principle early navigational data models were the progressive model and the CODASYL model (network model). These were described by the utilization of pointers (frequently actual circle addresses) to follow relationships starting with one record then onto the next. 
-                            </p>
-                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/servlet-1.png"/>
-                            <p>
-                                The relational model, first proposed in 1970 by Edgar F. Codd, left from this custom by demanding that applications should look for data by content, as opposed to by following connections. The relational model utilizes sets of record style tables, each utilized for an alternate kind of substance. Just during the 1980s did registering equipment become ground-breaking enough 
-                                to permit the wide organization of relational systems (DBMSs in addition to applications). By the mid 1990s, nonetheless, relational systems ruled in all enormous scope data handling applications, and starting at 2018 they stay prevailing: IBM DB2, Oracle, MySQL, and Microsoft SQL Server are the most looked through DBMS.[9] The predominant database language, normalized SQL 
-                                for the relational model, has affected database dialects for other data models.
-                            </p>
-                            <p>
-                                Item databases were created during the 1980s to defeat the bother of article relational impedance jumble, which prompted the instituting of the expression "post-relational" and furthermore the advancement of cross breed object-relational databases.
-                            </p>
-                            <p>
-                                The up and coming age of post-relational databases in the last part of the 2000s got known as NoSQL databases, presenting quick key-esteem stores and archive arranged databases. A contending "future" known as NewSQL databases endeavored new usage that held the relational/SQL model while meaning to coordinate the elite of NoSQL contrasted with economically accessible relational DBMSs.
-                            </p>
-                            <img class="col-lg-6 col-xs-12 img-fluid border-right border-left mb-2" src="${pageContext.request.contextPath}/img/history of data models and databases.png"/>
-                            <p class="col-lg-6 col-md-12 col-xs-12 float-right">
-                                Databases are the place all your data is stored. It resembles a lot of file organizers with envelopes loaded up with records. Databases come fundamentally in two flavors: SQL and NoSQL. SQL furnishes more structure which assists with ensuring all the data is right and approved. NoSQL gives a ton of adaptability to building and looking after applications.
-                            </p>
+                            <img class="col-lg-6 col-xs-6 img-fluid mb-4 border-top border-bottom" src="${pageContext.request.contextPath}/img/servlet-1.png"/>
                         </article>
                     </div>
                 </div>

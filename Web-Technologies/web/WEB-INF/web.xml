@@ -12,6 +12,26 @@
         <servlet-name>ServletIntroduction</servlet-name>
         <servlet-class>servlet.servlets.ServletIntroduction</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LifeCycle</servlet-name>
+        <servlet-class>servlet.servlets.LifeCycle</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServiceGetPost</servlet-name>
+        <servlet-class>servlet.servlets.ServiceGetPost</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GenericServlet</servlet-name>
+        <servlet-class>servlet.servlets.GenericServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DatabaseImportance</servlet-name>
+        <servlet-class>servlet.database.DatabaseImportance</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DatabaseTypes</servlet-name>
+        <servlet-class>servlet.database.DatabaseTypes</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -23,6 +43,26 @@
     <servlet-mapping>
         <servlet-name>ServletIntroduction</servlet-name>
         <url-pattern>/servlet/introduction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LifeCycle</servlet-name>
+        <url-pattern>/servlet/lifecycle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServiceGetPost</servlet-name>
+        <url-pattern>/servlet/service-get-post</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GenericServlet</servlet-name>
+        <url-pattern>/servlet/generic-servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DatabaseImportance</servlet-name>
+        <url-pattern>/database/importance</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DatabaseTypes</servlet-name>
+        <url-pattern>/database/types-of-technologies</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Nov 4, 2020, 5:46:18 PM
-    Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,13 +7,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Web Technologies</title>
+        <title>Servlet || service(),doGet(),doPost()</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/sidebar-themes.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sidebar-themes.css">
+        <link rel="shortcut icon" type="image/png" href="${pageContext.request.contextPath}/img/favicon.png" /> 
     </head>
     <body>
         <div class="page-wrapper toggled light-theme">            
@@ -62,7 +56,7 @@
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li> <a href="database/introduction">Introduction</a> </li>
+                                        <li><a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
                                         <li> <a href="#">Sub Menu 2</a> </li>
                                         <li> <a href="#">Sub Menu 3</a> </li>
                                     </ul>
@@ -85,7 +79,7 @@
                 </div>
             </nav>
             <!-- Navigation Menu -->
-            
+
             <!-- page-content  -->
             <main class="page-content">
                 <div id="overlay" class="overlay"></div>
@@ -98,66 +92,67 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
+                                    <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Servlet</li>
+                                    <li class="breadcrumb-item active" aria-current="page">service() | doGet() | doPost()</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <!-- title -Add bootstrap helpers for spacing -->
-                            <h1 class="mb-2 mt-3">Introduction</h1>
-                            <!--//title -->
-                            <p class="lead mb-3"> How to get started with Docu! </p>
-                            <p>Thank you for downloading our themes! We really appreciate it and ready to help you!</p>
-                            <p> This guide will help you get started with the template! All the important stuff – compiling the source, file structure, build tools, file includes – is documented here, but should you have any questions, always feel free to reach out to info@sharebootstrap.com </p>
-                            <!-- Sep -->
-                            <hr class="my-5">
-                            <!-- alert -->
-                            <div class="alert alert-primary d-flex justify-content-start align-items-center" role="alert"> <span class="fa fa-info mr-4"></span>
-                                <p class="m-0"> This documentation is always evolving. If you've not been here for a while, perhaps check out the This documentation is always evolving.This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. </p>
-                            </div>
-                            <!-- heading -->
-                            <h3 class="font-weight-bold mb-2">
-                                Dev setup
-                            </h3>
-                            <p> To get started, you need to do the following: </p>
-                            <ol>
-                                <li><strong>Make sure you have Node installed</strong> since Landkit uses npm to manage dependencies. If you don't, installing is quite easy, just visit the <a href="https://nodejs.org/en/download/">Node Downloads page</a> and install it. </li>
-                                <li><strong>Unzip your theme and open your command line</strong>, making sure your command line prompt is at the root of the unzipped theme directory. </li>
-                                <li><strong class="badge badge-danger-soft"><code>npm install gulp-cli -g</code></strong>: If you don't have the Gulp command line interface, you need to install it.</li>
-                                <li><strong class="badge badge-danger-soft"><code>npm install</code></strong>: Open your command line to the root directory of your unzipped theme and run to install all of Landkit's dependencies.</li>
-                            </ol>
-                            <!-- Sep -->
-                            <hr class="my-5">
-                            <h3 class="font-weight-bold mb-2">
-                                Code example
-                            </h3>
-                            <p>The Prism source, highlighted with Prism (don’t you just love how meta this is?):</p>
-                            <p>The <a href="">recommended way to mark up a code block</a> (both for semantics and for Prism) is a <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pre</span><span class="token punctuation">&gt;</span></span></code> element with a <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">&gt;</span></span></code> element inside, like so:</p>
-                            <figure class="highlight"><pre>
-                                <code class="language-html" data-lang="html">
-                                    <span class="c">&lt;!-- As a link --&gt;</span>
-                                    <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-light bg-light"</span><span class="nt">&gt;</span>
-                                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Navbar<span class="nt">&lt;/a&gt;</span>
-                                    <span class="nt">&lt;/nav&gt;</span>
-                            </figure>
+                            <h1 class="mb-2 mt-3">service()</h1>
+                            <p>
+                                Each time the server receives a request for a servlet, the server spawns a new thread and calls service. The service() method checks the HTTP request type (GET, POST, PUT, DELETE, etc.) and calls doGet, doPost, doPut, doDelete, etc. methods as appropriate.
+                            </p>
+                            <p>
+                                The term service method is used for any method in a servlet class that provides a service to a client. The general pattern for a service method is to extract information from the request, access external resources, and then populate the response, based on that information.
+                            </p>
+                            <p>
+                                The differences between the doGet() and doPost() methods are that they are called in the HttpServlet that your servlet extends by its service() method when it recieves a GET or a POST request from a HTTP protocol request. ... The GenericServlet has a service() method that gets called when a client request is made.
+                            </p>
+                            
+                            <hr class="my-2">
+                            
+                            <p class="lead mb-2"> WHO calls doGet () and doPost () method? </p>
+                            <p>
+                                The Servlet Life Cycle is the entire process of its creation till the destruction. servlet web container maintains the servlet lifecycle. Three methods are central to the life cycle of a servlet. These are init(),service() and destroy().
+                            </p>
+                            <p>
+                                The client's request, remember, always includes a specific HTTP Method. If the HTTP Method is a GET, the service() method calls doGet(). If the HTTP request Method is a POST, the service() method calls doPost().
+                            </p>
+                            
+                            <hr class="my-2">
+                            
+                            <h2 class="mb-2 mt-2">doGet()</h2>
+                            <p>
+                                Unlike Generic Servlet, the HTTP Servlet doesn't override the service() method. Instead it overrides the doGet() method or doPost() method or both. The doGet() method is used for getting the information from server while the doPost() method is used for sending information to the server.
+                            </p>
+                            <img class="col-lg-6 col-xs-12 img-fluid border" src="${pageContext.request.contextPath}/img/servlet-4.png"/>
+                            
+                            <hr class="my-2">
+                            
+                            <h2 class="mb-2 mt-2">doPost()</h2>
+                            <p>
+                               protected void doPost(HttpServletRequest req, HttpServletResponse resp): This method is called by servlet service method to handle the POST request from client. ... Unlike, doGet where we get information from the sever this method is used when we are transferring information from client to the server.
+                            </p>
+                            
+                            <img class="col-lg-8 col-xs-12 img-fluid border mb-3" src="${pageContext.request.contextPath}/img/servlet-3.png"/>
                         </article>
                     </div>
                 </div>
             </main>
             <!-- page-content" -->
-            
+
         </div>
         <!-- page-wrapper -->
         <!-- scripts -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="bootstrap/bootstrap.min.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/prism.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/popper.js"></script>
+        <script src="${pageContext.request.contextPath}/bootstrap/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/prism.min.js"></script>
+        <script src="${pageContext.request.contextPath}/js/main.js"></script>
     </body>
 
 </html>

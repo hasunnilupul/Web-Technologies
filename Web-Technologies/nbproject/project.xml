@@ -15,6 +15,9 @@
             </test-roots>
         </data>
         <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>DBMSs</word>
+            <word>doGet</word>
+            <word>doPost</word>
             <word>Servlet</word>
         </spellchecker-wordlist>
     </configuration>

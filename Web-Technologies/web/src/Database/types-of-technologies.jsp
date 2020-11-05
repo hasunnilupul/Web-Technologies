@@ -1,6 +1,6 @@
 <%-- 
-    Document   : introduction
-    Created on : Nov 4, 2020, 11:03:49 PM
+    Document   : types-of-technologies
+    Created on : Nov 5, 2020, 3:46:08 AM
     Author     : Hasun Nilupul <hasunnilupul16@gmail.com>
 --%>
 
@@ -13,7 +13,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Database || Introduction</title>
+        <title>Database || Types of Technologies</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
@@ -100,65 +100,78 @@
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
                                     <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Database</li>
-                                    <li class="breadcrumb-item active" aria-current="page">Introduction</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Types of Technologies</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <h1 class="mb-2 mt-3">What is a Database</h1>
+                            <h1 class="mb-2 mt-3">TYPES OF DATABASE TECHNOLOGIES</h1>
                             <p>
-                                A database is a data structure that stores coordinated data. Most databases contain various tables, which may each incorporate a few unique fields. For instance, an organization database may incorporate tables for items, representatives, and money related records. Every one of these tables would have various fields that are applicable to the data put away in the table. 
-                            </p>
-                            <p>
-                                Practically all web based business locales utilizes databases to store item stock and client data. These destinations utilize a database management system (or DBMS, for example, Microsoft Access, FileMaker Pro, or MySQL as the "back end" to the site. By putting away site data in a database, the data can be handily looked, arranged, and refreshed. This adaptability is 
-                                significant for internet business destinations and different sorts of dynamic sites. 
-                            </p>
-                            <p>
-                                Early databases were moderately "level," which implies they were restricted to basic rows and columns, similar to a bookkeeping page. (See additionally "level document database"). Nonetheless, the present relational databases permit clients to access, update, and search data dependent on the relationship of data put away in various tables. Relational databases can likewise
-                                run questions that include different databases. While early databases could just store text or numeric data, current databases likewise let clients store other data types, for example, sound clips, pictures, and video recordings.                            
+                                There are different database technologies. Each technology offers its own pros and cons and below is a look at some of the most common technologies.
                             </p>
 
-                            <!-- Sep -->
                             <hr class="my-2">
 
-                            <h1 class="mb-2 mt-3">History</h1>
+                            <h2 class="mb-2 mt-3">Single- vs. multi-file databases</h2>
                             <p>
-                                The sizes, abilities, and execution of databases and their particular DBMSs have filled in significant degrees. These presentation increments were empowered by the innovation progress in the regions of processors, PC memory, PC stockpiling, and PC organizations. The idea of a database was made conceivable by the development of direct access stockpiling media, for example, 
-                                attractive plates, which turned out to be generally accessible during the 1960s; prior systems depended on consecutive capacity of data on attractive tape. The ensuing improvement of database innovation can be isolated into three periods dependent on data model or structure: navigational,[8] SQL/relational, and post-relational.
+                                A remarkable distinction between advancements can be whether they are single-file or multi-file databases. 
+                            </p>
+                            <h3 class="mb-2 mt-2">Single-file database</h3>
+                            <p>
+                                A single-file database is the most straightforward database structure, as it comprises of bound together data, which can regularly be utilized and accessed in a pre-decided way. Unpredictability in a single-file database isn't typical.
                             </p>
                             <p>
-                                The two principle early navigational data models were the progressive model and the CODASYL model (network model). These were described by the utilization of pointers (frequently actual circle addresses) to follow relationships starting with one record then onto the next. 
+                                While this sort of innovation can give advantages to barely characterized data, which coordinates in a restricted way, it can offer restricted opportunities for use when managing enormous arrangements of data. For instance, extraordinary single-file databases don't collaborate with one another, despite the fact that they may comprises of a similar data. Accordingly, when you update one database, your different databases won't naturally incorporate these progressions and could consequently contain wrong data. Single-file databases should likewise be all in a similar area, which can cause troubles away and increment the security danger of the data.
                             </p>
-                            <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top border-bottom" src="${pageContext.request.contextPath}/img/database-evalution-timeline.png"/>
+                            <h3 class="mb-2 mt-2">Multi-file database</h3>
                             <p>
-                                The relational model, first proposed in 1970 by Edgar F. Codd, left from this custom by demanding that applications should look for data by content, as opposed to by following connections. The relational model utilizes sets of record style tables, each utilized for an alternate kind of substance. Just during the 1980s did registering equipment become ground-breaking enough 
-                                to permit the wide organization of relational systems (DBMSs in addition to applications). By the mid 1990s, nonetheless, relational systems ruled in all enormous scope data handling applications, and starting at 2018 they stay prevailing: IBM DB2, Oracle, MySQL, and Microsoft SQL Server are the most looked through DBMS.[9] The predominant database language, normalized SQL 
-                                for the relational model, has affected database dialects for other data models.
+                                As we've expanded assortment of data, the multifaceted nature of data has likewise risen. A great part of the data we use isn't in the abovementioned, bound together configuration. A multi-file database joins diverse data designs together and permits a more adaptable method of getting sorted out and utilizing data. It furnishes users with the capacity to connect between various data sets and sort out them.
                             </p>
                             <p>
-                                Item databases were created during the 1980s to defeat the bother of article relational impedance jumble, which prompted the instituting of the expression "post-relational" and furthermore the advancement of cross breed object-relational databases.
-                            </p>
-                            <p>
-                                The up and coming age of post-relational databases in the last part of the 2000s got known as NoSQL databases, presenting quick key-esteem stores and archive arranged databases. A contending "future" known as NewSQL databases endeavored new usage that held the relational/SQL model while meaning to coordinate the elite of NoSQL contrasted with economically accessible relational DBMSs.
-                            </p>
-                            <img class="col-lg-6 col-xs-12 img-fluid border-right border-left mb-2" src="${pageContext.request.contextPath}/img/history of data models and databases.png"/>
-                            <p class="col-lg-6 col-md-12 col-xs-12 float-right">
-                                Databases are the place all your data is stored. It resembles a lot of file organizers with envelopes loaded up with records. Databases come fundamentally in two flavors: SQL and NoSQL. SQL furnishes more structure which assists with ensuring all the data is right and approved. NoSQL gives a ton of adaptability to building and looking after applications.
+                                Moreover, a multi-file database gives the upside of parting the database and utilizing it from various areas. This gives the specialized favorable position of speed, as multiple users can access the data speedier than if it was situated in a similar actual area or plate.
                             </p>
 
-                            <h4 class="mb-2 mt-2">Examples of DBMSs</h4>
+                            <hr class="my-2">
+
+                            <h2 class="mb-2 mt-3">Relational vs. non-relational databases</h2>
                             <p>
-                                We’ll be looking at different database technologies later on in the guide, but it’s helpful to mention some known examples of DBMSs. Well-known DBMSs include applications like:
+                                As the above differentiation would have appeared, a lion's share of the present DBMSs are multi-record databases. However, these can be additionally coordinated in an alternate way. One of the most widely recognized alternatives to pick between is relational versus non-relational databases.
                             </p>
-                            <ul>
-                                <li>MySQL</li>
-                                <li>PostgreSQL</li>
-                                <li>Oracle</li>
-                                <li>Sybase</li>
-                                <li>IBM DB2</li>
-                            </ul>
+                            <h3 class="mb-2 mt-2">Relational database</h3>
+                            <p>
+                                The most essential model for DBMSs is the relational database model, frequently alluded to as RDBMS. This implies that the multi-document databases referenced above, are connected together and data from discrete records can be utilized and accessed from various areas. 
+                            </p>
+                            <p>
+                                The qualities of this model are like the qualities of DBMSs. The relational database structure is adaptable and dependable. Since it's such a set up innovation, the expenses and dangers related with it are little. 
+                            </p>
+                            <p>
+                                Nonetheless, there are shortcomings to RDBMSs, with most of them identifying with explicit execution issues. Relational models require pre-decided arrangements, which can restrict the intricacy and frequently bring about issues if data is added with an alternate configuration. There's additionally absence of help for complex base sorts, for example, drawings. 
+                            </p>
+                            <p>
+                                Note that the regular relational databases are frequently alluded to as SQL databases. The SQL alludes to the programming language (Structured Query Language) and numerous RDBMSs, for example, Oracle and MySQL, utilize this language for making and handling databases. 
+                            </p>
+                            <h3 class="mb-2 mt-2">Non-relational database</h3>
+                            <p>
+                                Something contrary to a relational database is a non-relational database. Since relational databases are regularly alluded to by their programming language, SQL, the non-relational databases are known as NoSQL databases. 
+                            </p>
+                            <p>
+                                These models are intended to sidestep the issue of accessing data, which isn't commonly structured in a standard model. It thusly gives greater versatility and adaptability to relational databases. Indeed, non-relational databases can frequently be put away in a solitary record design, on the grounds that the databases are archive situated as opposed to structured. 
+                            </p>
+                            <p>
+                                Non-relational advancements permit the utilization of non-structured data, for example, recordings, or photographs. These datasets can be ordered in various manners, with pre-decided fields. 
+                            </p>
+                            <p>
+                                The disadvantage is that this sort of database arrangement requires additional preparing power. The prerequisites of the innovation can add a strain, for the actual necessities, yet in addition for the cost adequacy of the framework.
+                            </p>
+                            
+                            <hr class="my-2">
+
+                            <h2 class="mb-2 mt-3">Centralized vs. distributed databases</h2>
+                            <p>
+                                
+                            </p>
                         </article>
                     </div>
                 </div>
