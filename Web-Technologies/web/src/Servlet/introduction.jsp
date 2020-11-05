@@ -41,7 +41,6 @@
                     <!-- sidebar-menu  -->
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
-                            <li class="header-menu"> <span>Documentation</span> </li>
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
                                 <div class="sidebar-submenu">
@@ -56,9 +55,9 @@
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li><a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
-                                        <li> <a href="#">Sub Menu 2</a> </li>
-                                        <li> <a href="#">Sub Menu 3</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/database/importance">Importance & Benifits</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/database/types-of-technologies">Types of Technologies</a> </li>
                                     </ul>
                                 </div>
                             </li>

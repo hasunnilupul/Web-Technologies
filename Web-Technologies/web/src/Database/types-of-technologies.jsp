@@ -47,7 +47,6 @@
                     <!-- sidebar-menu  -->
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
-                            <li class="header-menu"> <span>Documentation</span> </li>
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
                                 <div class="sidebar-submenu">
@@ -114,7 +113,7 @@
 
                             <hr class="my-2">
 
-                            <h2 class="mb-2 mt-3">Single- vs. multi-file databases</h2>
+                            <h2 class="mb-2 mt-3">Single vs. Multi-File Databases</h2>
                             <p>
                                 A remarkable distinction between advancements can be whether they are single-file or multi-file databases. 
                             </p>
@@ -135,7 +134,7 @@
 
                             <hr class="my-2">
 
-                            <h2 class="mb-2 mt-3">Relational vs. non-relational databases</h2>
+                            <h2 class="mb-2 mt-3">Relational vs. Non-Relational databases</h2>
                             <p>
                                 As the above differentiation would have appeared, a lion's share of the present DBMSs are multi-record databases. However, these can be additionally coordinated in an alternate way. One of the most widely recognized alternatives to pick between is relational versus non-relational databases.
                             </p>
@@ -165,12 +164,42 @@
                             <p>
                                 The disadvantage is that this sort of database arrangement requires additional preparing power. The prerequisites of the innovation can add a strain, for the actual necessities, yet in addition for the cost adequacy of the framework.
                             </p>
-                            
+
                             <hr class="my-2">
 
-                            <h2 class="mb-2 mt-3">Centralized vs. distributed databases</h2>
+                            <h2 class="mb-2 mt-3">Centralized vs. Distributed databases</h2>
                             <p>
-                                
+                                Databases can likewise be put away in various habits. The most widely recognized qualification between various ways database frameworks are coordinated is among centralized and distributed databases.
+                            </p>
+                            <h3 class="mb-2 mt-2">Centralized database</h3>
+                            <p>
+                                Databases were ordinarily centralized, which means put away, found and kept up in a solitary area. Previously, this was because of the innovative impediments of PCs. Under this methodology, the data can be accessed from better places, however the data itself is put away in a focal PC or database, in a solitary database document.
+                            </p>
+                            <p>
+                                Centralized databases profit by upgraded data trustworthiness and limited data excess, since the data is just found in a solitary area there's just a single essential market of it. Making sure about this database can be simpler, as you just need to make sure about the single data area. Generally speaking, the support cost of the data is limited. 
+                            </p>
+                            <p>
+                                Then again, the database access depends intensely on network availability. Since the data is just put away in a solitary area, issues in access can bring about absolute loss of data access. Normally, shortcomings away might prompt full loss of data, which could be disastrous for organizations.
+                            </p>
+                            <h3 class="mb-2 mt-2">Distributed database</h3>
+                            <p>
+                                To counter a portion of the issues with centralized databases, distributed databases have become a mainstream choice. In these frameworks, the data is put away in different actual areas. Moreover, the distributed databases can be isolated into homogenous and heterogeneous databases. The framework incorporates a multi-record framework, constrained by a solitary, focal DBMS. 
+                            </p>
+                            <p>
+                                The advantages of distributed frameworks are adaptable as in they give greater security in the event that there's a deficiency in the framework. Recovering lost data is regularly simpler and quicker in a distributed framework. Frequently they likewise give better access, as data can be accessed through numerous organizations. 
+                            </p>
+                            <p>
+                                The drawback is that the making of a distributed framework can be more perplexing. These DBMSs depend on a various leveled structure, making it harder to look after data. Data repetition can increment in a distributed framework. Moreover, since the data is dissipated and gives various access focuses, making sure about the framework can be more earnestly.
+                            </p>
+
+                            <hr class="my-2">
+
+                            <h2 class="mb-2 mt-3">Column-oriented vs. Row-oriented databases</h2>
+                            <p>
+                                At long last, DBMSs can vary in how the data is put away. In many occasions, DBMSs are either column-oriented or row-oriented. 
+                            </p>
+                            <p>
+                                The distinctions are more apparent once you comprehend that relational databases ordinarily give data in a two-dimensional table. This database is basically a determination of columns and rows. In any case, so as to access this data, DBMSs need to utilize either a column-oriented or row-oriented methodology of gathering the data. This implies data is either perused as a column design or a row design. 
                             </p>
                         </article>
                     </div>

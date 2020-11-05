@@ -47,7 +47,6 @@
                     <!-- sidebar-menu  -->
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
-                            <li class="header-menu"> <span>Documentation</span> </li>
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
                                 <div class="sidebar-submenu">
