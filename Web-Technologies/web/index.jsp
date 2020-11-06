@@ -48,12 +48,21 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-sync-alt"></i> <span class="menu-text">AJAX</span></a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li> <a href="${pageContext.request.contextPath}/ajax/ajaxintroduction">Introduction</a> </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/importance">Importance & Benifits</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/types-of-technologies">Types of Technologies</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/database/mysql">MySQL</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -68,8 +77,6 @@
                                     </ul>
                                 </div>
                             </li>
-
-                            <!--Chamaa kolla home edition patn gamma-->
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
@@ -87,11 +94,10 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!--Chamaa kolla home edition awasanaya
                         </ul>
                     </div>
-                            <!-- sidebar-menu  -->
-                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
             </nav>
             <!-- Navigation Menu -->
 
@@ -107,17 +113,16 @@
                             <nav aria-label="breadcrumb" class="align-items-center">
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
-                                    <li class="breadcrumb-item"><a href="home">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Active Link</li>
+                                    <li class="breadcrumb-itemactive" aria-current="page">Home</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            
-                            <h3 style="center">Welcome</h3>
-                            
+
+                            <h3 class="text-center">Welcome to Web Technologies</h3>
+
                         </article>
                     </div>
                 </div>
