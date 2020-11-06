@@ -47,12 +47,21 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-sync-alt"></i> <span class="menu-text">AJAX</span></a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li> <a href="${pageContext.request.contextPath}/ajax/ajaxintroduction">Introduction</a> </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/importance">Importance & Benifits</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/types-of-technologies">Types of Technologies</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/database/mysql">MySQL</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -67,7 +76,6 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!--Chamaa kollage tika patangamma-->
                             <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
@@ -85,7 +93,6 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!--Chamaa kollage tika awasaanaya-->
                         </ul>
                     </div>
                     <!-- sidebar-menu  -->

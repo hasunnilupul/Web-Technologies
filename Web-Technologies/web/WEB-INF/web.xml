@@ -33,7 +33,6 @@
         <servlet-name>DatabaseTypes</servlet-name>
         <servlet-class>servlet.database.DatabaseTypes</servlet-class>
     </servlet>
-    
     <!--Chamaa Island-->
     <servlet>
         <servlet-name>CloudComputingIntroduction</servlet-name>
@@ -43,9 +42,7 @@
         <servlet-name>WhyUseCloudComputing</servlet-name>
         <servlet-class>servlet.cloudcomputing.WhyUseCloudComputing</servlet-class>
     </servlet>
-    
     <!--Aluth tika-->
-    
     <servlet>
         <servlet-name>UsesOfCloudComputing</servlet-name>
         <servlet-class>servlet.cloudcomputing.UsesOfCloudComputing</servlet-class>
@@ -78,8 +75,11 @@
         <servlet-name>CloudServiceModel</servlet-name>
         <servlet-class>servlet.cloudcomputing.CloudServiceModel</servlet-class>
     </servlet>
-    
     <!--Servlet Mapping Area-->
+    <servlet>
+        <servlet-name>MySQL</servlet-name>
+        <servlet-class>servlet.database.MySQL</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -112,7 +112,6 @@
         <servlet-name>DatabaseTypes</servlet-name>
         <url-pattern>/database/types-of-technologies</url-pattern>
     </servlet-mapping>
-    
     <!--Chamaa Island-->
     <servlet-mapping>
         <servlet-name>CloudComputingIntroduction</servlet-name>
@@ -122,9 +121,7 @@
         <servlet-name>WhyUseCloudComputing</servlet-name>
         <url-pattern>/cloudcomputing/whyusecloudcomputing</url-pattern>
     </servlet-mapping>
-    
     <!--Aluth tika-->
-    
     <servlet-mapping>
         <servlet-name>UsesOfCloudComputing</servlet-name>
         <url-pattern>/cloudcomputing/usesofcloudcomputing</url-pattern>
@@ -157,8 +154,11 @@
         <servlet-name>CloudServiceModel</servlet-name>
         <url-pattern>/cloudcomputing/cloudservicemodel</url-pattern>
     </servlet-mapping>
-    
     <!--Pissu Area eka-->
+    <servlet-mapping>
+        <servlet-name>MySQL</servlet-name>
+        <url-pattern>/database/mysql</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
