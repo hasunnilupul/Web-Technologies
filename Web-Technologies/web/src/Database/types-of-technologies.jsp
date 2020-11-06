@@ -47,16 +47,6 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
-                                <div class="sidebar-submenu">
-                                    <ul>
-                                        <li> <a href="#">Sub Menu 1</a> </li>
-                                        <li> <a href="#">Sub Menu 2</a> </li>
-                                        <li> <a href="#">Sub Menu 3</a> </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
