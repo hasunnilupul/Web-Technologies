@@ -80,6 +80,54 @@
         <servlet-name>MySQL</servlet-name>
         <servlet-class>servlet.database.MySQL</servlet-class>
     </servlet>
+    
+    <!-- WebHosting Servlet-->
+    <servlet>
+        <servlet-name>WebHostingIntroduction</servlet-name>
+        <servlet-class>servlet.webhosting.WebHostingIntroduction</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TypesOfWebHosting</servlet-name>
+        <servlet-class>servlet.webhosting.TypesOfWebHosting</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>WebHostingServices</servlet-name>
+        <servlet-class>servlet.webhosting.WebHostingServices</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>WebHostingCompany</servlet-name>
+        <servlet-class>servlet.webhosting.WebHostingCompany</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HostingQuality</servlet-name>
+        <servlet-class>servlet.webhosting.HostingQuality</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>WebHostPricing</servlet-name>
+        <servlet-class>servlet.webhosting.WebHostPricing</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>WebAndDomainHosting</servlet-name>
+        <servlet-class>servlet.webhosting.WebAndDomainHosting</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ByeADomainName</servlet-name>
+        <servlet-class>servlet.webhosting.ByeADomainName</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DNS</servlet-name>
+        <servlet-class>servlet.webhosting.DNS</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PickWebHost</servlet-name>
+        <servlet-class>servlet.webhosting.PickWebHost</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PayForWebHosting</servlet-name>
+        <servlet-class>servlet.webhosting.PayForWebHosting</servlet-class>
+    </servlet>
+    
+    <!--   -->
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -159,6 +207,53 @@
         <servlet-name>MySQL</servlet-name>
         <url-pattern>/database/mysql</url-pattern>
     </servlet-mapping>
+    
+    <!--WebHosting Servlet Mapping-->
+     <servlet-mapping>
+        <servlet-name>WebHostingIntroduction</servlet-name>
+        <url-pattern>/webhosting/introduction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TypesOfWebHosting</servlet-name>
+        <url-pattern>/webhosting/Types-of-web-hosting</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>WebHostingServices</servlet-name>
+        <url-pattern>/webhosting/Best-web-hosting-services</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>WebHostingCompany</servlet-name>
+        <url-pattern>/webhosting/Web-hosting-company</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HostingQuality</servlet-name>
+        <url-pattern>/webhosting/Hosting-quality</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>WebHostPricing</servlet-name>
+        <url-pattern>/webhosting/Web-hosting-pricing-and-value</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>WebAndDomainHosting</servlet-name>
+        <url-pattern>/webhosting/Web-hosting-and-domain-hosting</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ByeADomainName</servlet-name>
+        <url-pattern>/webhosting/bye-a-domain-name</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DNS</servlet-name>
+        <url-pattern>/webhosting/DNS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PickWebHost</servlet-name>
+        <url-pattern>/webhosting/Pick-web-host</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PayForWebHosting</servlet-name>
+        <url-pattern>/webhosting/Pay-for-web-hosting</url-pattern>
+    </servlet-mapping>
+    <!--  -->
     <session-config>
         <session-timeout>
             30

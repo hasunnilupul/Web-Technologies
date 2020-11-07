@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Servlet || service(),doGet(),doPost()</title>
+        <title>Web Hosting || Introduction</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
@@ -42,10 +42,12 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-sync-alt"></i> <span class="menu-text">AJAX</span></a>
+                                <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li> <a href="${pageContext.request.contextPath}/ajax/ajaxintroduction">Introduction</a> </li>
+                                        <li> <a href="#">Sub Menu 1</a> </li>
+                                        <li> <a href="#">Sub Menu 2</a> </li>
+                                        <li> <a href="#">Sub Menu 3</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -56,7 +58,6 @@
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/importance">Importance & Benifits</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/types-of-technologies">Types of Technologies</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/database/mysql">MySQL</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -71,24 +72,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
-                                <div class="sidebar-submenu">
-                                    <ul>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/introduction">Introduction</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/whyusecloudcomputing">Why we use cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/usesofcloudcomputing">Uses of cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/prosandcons">Pros and Cons</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingarchitecture">Cloud Computing Architecture</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtechnologies">Cloud Computing Technologies</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/applicationsofcloudcomputing">Applications of cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingrisk">Cloud Computing Risk</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtypes">Cloud computing types</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudservicemodel">Cloud service model</a> </li>
-                                    </ul>
-                                </div>
-                            </li>
-                             <li class="sidebar-dropdown">
+                              <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-server"></i> <span class="menu-text">Web Hosting</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
@@ -106,6 +90,7 @@
                                     </ul>
                                 </div>
                             </li>
+                            
                         </ul>
                     </div>
                     <!-- sidebar-menu  -->
@@ -126,51 +111,37 @@
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
                                     <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Servlet</li>
-                                    <li class="breadcrumb-item active" aria-current="page">service() | doGet() | doPost()</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Web Hosting</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Pick A Web Host</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <h1 class="mb-2 mt-3">service()</h1>
-                            <p>
-                                Each time the server receives a request for a servlet, the server spawns a new thread and calls service. The service() method checks the HTTP request type (GET, POST, PUT, DELETE, etc.) and calls doGet, doPost, doPut, doDelete, etc. methods as appropriate.
+                            <h1 class="mb-2 mt-3">How to pick a web host</h1>
+                            <p class="float-right">Our selection of an appropriate and reliable web hosting service provider is an important step in coming online, especially if we are launching a business website. Hosts not only make our site available to others, but they also offer services related to managing these servers and its software, support, bandwidth, speed and so on.
                             </p>
-                            <p>
-                                The term service method is used for any method in a servlet class that provides a service to a client. The general pattern for a service method is to extract information from the request, access external resources, and then populate the response, based on that information.
-                            </p>
-                            <p>
-                                The differences between the doGet() and doPost() methods are that they are called in the HttpServlet that your servlet extends by its service() method when it recieves a GET or a POST request from a HTTP protocol request. ... The GenericServlet has a service() method that gets called when a client request is made.
-                            </p>
-                            
-                            <hr class="my-2">
-                            
-                            <p class="lead mb-2"> WHO calls doGet () and doPost () method? </p>
-                            <p>
-                                The Servlet Life Cycle is the entire process of its creation till the destruction. servlet web container maintains the servlet lifecycle. Three methods are central to the life cycle of a servlet. These are init(),service() and destroy().
-                            </p>
-                            <p>
-                                The client's request, remember, always includes a specific HTTP Method. If the HTTP Method is a GET, the service() method calls doGet(). If the HTTP request Method is a POST, the service() method calls doPost().
-                            </p>
-                            
-                            <hr class="my-2">
-                            
-                            <h2 class="mb-2 mt-2">doGet()</h2>
-                            <p>
-                                Unlike Generic Servlet, the HTTP Servlet doesn't override the service() method. Instead it overrides the doGet() method or doPost() method or both. The doGet() method is used for getting the information from server while the doPost() method is used for sending information to the server.
-                            </p>
-                            <img class="col-lg-6 col-xs-12 img-fluid border" src="${pageContext.request.contextPath}/img/servlet-4.png"/>
-                            
-                            <hr class="my-2">
-                            
-                            <h2 class="mb-2 mt-2">doPost()</h2>
-                            <p>
-                               protected void doPost(HttpServletRequest req, HttpServletResponse resp): This method is called by servlet service method to handle the POST request from client. ... Unlike, doGet where we get information from the sever this method is used when we are transferring information from client to the server.
-                            </p>
-                            
-                            <img class="col-lg-8 col-xs-12 img-fluid border mb-3" src="${pageContext.request.contextPath}/img/servlet-3.png"/>
+                             <h6 class="mb-2 mt-3"> Free web hosting comes with a cost  </h6>
+                             <p>
+                             <ul>
+                                 <li><b>Bandwidth Allowance</b>
+                                     <p>Bandwidth allowance (sometimes loosely referred to as "traffic" or "data transfer") is the number of bytes required to transfer our site to all of our visitors when they browse our content. Does the hosting provide enough space for our needs? To give we a rough idea of the typical traffic requirements of a website, most new sites that don't provide video or music on their site use less than 3 gigabytes of bandwidth per month. If we anticipate quick future expansion or our needs include sound, video, etc., then consider the extra space offered by a paid hosting provider.</p>
+                                 <p>If we're thinking about going for a free host, think first about the size of our site and how many visitors we expect on a daily basis. Many free web hosts impose daily or monthly limits on the amount of traffic our website can use. If our content includes lots of images or videos that attract over the "agreed" amount of visitors (traffic) per day/ week/ month, the host is within its rights to disable our website for breach of contract - or send we a bill.</p>
+                                 <p>Another consideration before using free hosting providers is that they frequently impose a maximum size on the files we upload. If we wish to distribute software or high-resolution imagery, a paid host offers we the ability to load the larger file sizes we'll need.</p>
+                                 </li>
+                                 
+                                 <li><b>Advertising</b>
+                                     <p>Many, but not all free hosts impose advertising on our website to cover the costs of providing our site with free web space. Most people are put off by commercial banners and pop-ups. Sites littered with adverts are generally considered low quality and even spammy, which is an immediate put-off. To be on the safe side, check the fine print to see if adverts are expected in exchange for free hosting before we sign-up.</p>
+                                 </li>
+                                 
+                                 <li><b>Upgrade Options</b>
+                                     <p>Look out for is whether a host gives our site room to grow. Most new sites start on shared hosting which is pretty poourful these days. However, as we expect a website to grow over the years, we might need to consider a more poourful server (virtual private or dedicated for example). Check the host has suitable plans to upgrade to and that the process is as straightforward as possible.</p>
+                                 </li>
+                             </ul>
+                        </p>  
+                        <hr class="my-5">
+                         
                         </article>
                     </div>
                 </div>

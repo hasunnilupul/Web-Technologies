@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Servlet || service(),doGet(),doPost()</title>
+        <title>Web Hosting || Introduction</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
@@ -42,10 +42,12 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-sync-alt"></i> <span class="menu-text">AJAX</span></a>
+                                <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li> <a href="${pageContext.request.contextPath}/ajax/ajaxintroduction">Introduction</a> </li>
+                                        <li> <a href="#">Sub Menu 1</a> </li>
+                                        <li> <a href="#">Sub Menu 2</a> </li>
+                                        <li> <a href="#">Sub Menu 3</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -56,7 +58,6 @@
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/importance">Importance & Benifits</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/types-of-technologies">Types of Technologies</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/database/mysql">MySQL</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -71,24 +72,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
-                                <div class="sidebar-submenu">
-                                    <ul>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/introduction">Introduction</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/whyusecloudcomputing">Why we use cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/usesofcloudcomputing">Uses of cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/prosandcons">Pros and Cons</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingarchitecture">Cloud Computing Architecture</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtechnologies">Cloud Computing Technologies</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/applicationsofcloudcomputing">Applications of cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingrisk">Cloud Computing Risk</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtypes">Cloud computing types</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudservicemodel">Cloud service model</a> </li>
-                                    </ul>
-                                </div>
-                            </li>
-                             <li class="sidebar-dropdown">
+                              <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-server"></i> <span class="menu-text">Web Hosting</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
@@ -106,6 +90,7 @@
                                     </ul>
                                 </div>
                             </li>
+                            
                         </ul>
                     </div>
                     <!-- sidebar-menu  -->
@@ -126,51 +111,60 @@
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
                                     <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Servlet</li>
-                                    <li class="breadcrumb-item active" aria-current="page">service() | doGet() | doPost()</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Web Hosting</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Pay For Web Hosting</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <h1 class="mb-2 mt-3">service()</h1>
-                            <p>
-                                Each time the server receives a request for a servlet, the server spawns a new thread and calls service. The service() method checks the HTTP request type (GET, POST, PUT, DELETE, etc.) and calls doGet, doPost, doPut, doDelete, etc. methods as appropriate.
+                            <h1 class="mb-2 mt-3">Why pay for web hosting?</h1>
+                            <p class="float-right">
+                            <ul>
+                                <li><b>Uptime (reliability)</b>
+                                    <p>Reliability is extremely important for both free and paid services, but we should only expect any real reliability with a paid hosting plan. It's likely that we'll want our website to operate 24/7, and we'll only get that from a web host with reliable servers and stable network connections. Before we decide on a host, check out its uptime history. We can read reviews and check their advertised uptime guarantees.</p> 
+                                    <p>A site that is hard to reach or frequently down loses visitors, customers, and can hit revenue hard. If someone finds our site and tries to access it only to find that it’s unavailable, they won't hesitate to go to a competitor site. Slow access is also very frustrating for dedicated visitors (and for we also, when we upload new content).</p>
+                                </li>
+                                <li><b>Traffic/Bandwidth</b>
+                                    <p>Read and understand any limitations placed on the bandwidth we use and select an appropriate plan. If our site is going to incorporate video, audio, or other elements that require a higher level of bandwidth, we want a plan that matches our needs.</p>
+                                </li>   
+                                <li><b>PHP, .htaccess, SSH, MySQL, FTP etc</b>
+                                    <p>
+                                    <ul>
+                                        <li>If we need to install PHP or Perl - make sure we can do this without needing our host's approval. If not we will have to wait for their say so before we can implement a feature on our site.</li>
+                                        <li>Assuming we want to do things like customizing our error pages (the messages displayed when visitors land on an extinct page on our site), protect our site from bandwidth theft and hotlinking, etc. and to password-protect our folders, we'll need the ability to create or modify ".htaccess" files.</li>
+                                        <li>SSH access is useful for maintaining databases such as MySQL and when we want to run a blog or a content management system.</li> 
+                                        <li>FTP is a popular method to transfer web pages and other files from a local computer onto a web hosts computer (servers) so that it can be viewed by anyone worldwide. Some hosts only don’t allow we to design and upload our own pages. Instead, they ask that our pages are designed and uploaded using their online site builder. Unless we are an absolute beginner and plan a pretty trivial site, make sure we have FTP access or the ability to upload our pages by email or browser at the very least.</li>
+                                    </ul>
+                                    </p> 
+                                </li>
+                                <li><b>Control Panel</b>
+                                    <p>The purpose of a control panel is to allow we to manage various aspects of our websites hosting account ourself. We should expect a control panel from a commercial host so we can perform everyday maintenance tasks without having to wait for technical support to make simple changes. A 'cPanel' provides a simple dashboard to manage email addresses, account passwords and basic server configurations. It can be time-consuming to go through a technical support operator or be obliged to pay an additional fee each time we want to perform simple admin tasks.</p>
+                                </li>
+                                <li>
+                                    <b>Multiple Domains Hosting</b>
+                                    <p>It's common to own more than one domain, they're cheap these days, and it's hard to resist owning a few. In this case, we need to accommodate extra domains with extra hosting space. To simplify the hosting process, it's possible to host more than one domain from a single account. Each separate website hosted on the same account is called an add-on domain. Most shared hosting providers allow add on domains. It's advisable to check in advance how they charge for it.</p>
+                                </li>
+                                <li><b>Cost</b>
+                                    <p>With web hosting as with everything, we often get what we pay for. If we have a basic website not expecting a large amount of traffic, expect to pay between $10 to $150 per year for shared hosting. Higher capacity hosting plans can start at $150 and go up from there.</p>
+                                    <p>Most commercial hosts offer the flexibility to choose how we want to pay with monthly and annual payment plans; the latter gives we a cheaper rate. Once we're reassured they offer a reliable service, we can switch to the cheaper annual payments, or switch hosts quickly if they don't meet our expectations.</p>
+                                    <p>Finally, let's discuss renewals. If we're satisfied with the price of a package, check the price for renewals. It's a norm in the industry to offer low signup prices but charge much higher amounts on renewals. Unless we are ok with switching between hosts every few years, renewals prices are unavoidable.</p>
+                                </li>
+                                <li><b>Email</b>
+                                    <p>If we want to host email accounts alongside our website, check that our host allows we to set up the email addresses we want on our domain - before signup. It looks a bit shabby to have a random email address not associated with our domain: How much more professional does info@ourdomain.com sound over info.ourdomain@gmail.com?</p> 
+                                    <p>In the case that emails are provided, it's not a big deal. There are other ways to get our hands on an email account at our own domain name.</p>
+                                </li>
+                                <li><b>Technical support</b>
+                                    <p>Things can go wrong at the most inconvenient of times so best check our host has 24/7/ 365 professional support. We'll want someone there to throw we a lifeline when we press the S.O.S button and to know the person picking on the other end is technically equipped with the knowledge to help we, there and then. To get a feel for this, read online reviews with accounts of real customer experiences.</p>
+                                    <p>There will be times when we have a non-urgent query. We might want to solve it in our own time while getting a better handle on our server settings. Does the host have a knowledge base or FAQs to browse to help advance our understanding? Whether we prefer to chat over the phone or rather have comprehensive documentation at hand to solve problems ourself - check they are available.</p>
+                                </li>
+                                
+                            </ul>
                             </p>
-                            <p>
-                                The term service method is used for any method in a servlet class that provides a service to a client. The general pattern for a service method is to extract information from the request, access external resources, and then populate the response, based on that information.
-                            </p>
-                            <p>
-                                The differences between the doGet() and doPost() methods are that they are called in the HttpServlet that your servlet extends by its service() method when it recieves a GET or a POST request from a HTTP protocol request. ... The GenericServlet has a service() method that gets called when a client request is made.
-                            </p>
-                            
-                            <hr class="my-2">
-                            
-                            <p class="lead mb-2"> WHO calls doGet () and doPost () method? </p>
-                            <p>
-                                The Servlet Life Cycle is the entire process of its creation till the destruction. servlet web container maintains the servlet lifecycle. Three methods are central to the life cycle of a servlet. These are init(),service() and destroy().
-                            </p>
-                            <p>
-                                The client's request, remember, always includes a specific HTTP Method. If the HTTP Method is a GET, the service() method calls doGet(). If the HTTP request Method is a POST, the service() method calls doPost().
-                            </p>
-                            
-                            <hr class="my-2">
-                            
-                            <h2 class="mb-2 mt-2">doGet()</h2>
-                            <p>
-                                Unlike Generic Servlet, the HTTP Servlet doesn't override the service() method. Instead it overrides the doGet() method or doPost() method or both. The doGet() method is used for getting the information from server while the doPost() method is used for sending information to the server.
-                            </p>
-                            <img class="col-lg-6 col-xs-12 img-fluid border" src="${pageContext.request.contextPath}/img/servlet-4.png"/>
-                            
-                            <hr class="my-2">
-                            
-                            <h2 class="mb-2 mt-2">doPost()</h2>
-                            <p>
-                               protected void doPost(HttpServletRequest req, HttpServletResponse resp): This method is called by servlet service method to handle the POST request from client. ... Unlike, doGet where we get information from the sever this method is used when we are transferring information from client to the server.
-                            </p>
-                            
-                            <img class="col-lg-8 col-xs-12 img-fluid border mb-3" src="${pageContext.request.contextPath}/img/servlet-3.png"/>
+                           
+                        <hr class="my-5">
+                         
                         </article>
                     </div>
                 </div>

@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web Technologies">
-        <title>Servlet || service(),doGet(),doPost()</title>
+        <title>Web Hosting || Introduction</title>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/jquery.mCustomScrollbar.min.css">
@@ -42,10 +42,12 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-sync-alt"></i> <span class="menu-text">AJAX</span></a>
+                                <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li> <a href="${pageContext.request.contextPath}/ajax/ajaxintroduction">Introduction</a> </li>
+                                        <li> <a href="#">Sub Menu 1</a> </li>
+                                        <li> <a href="#">Sub Menu 2</a> </li>
+                                        <li> <a href="#">Sub Menu 3</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -56,7 +58,6 @@
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/importance">Importance & Benifits</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/types-of-technologies">Types of Technologies</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/database/mysql">MySQL</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -71,24 +72,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
-                                <div class="sidebar-submenu">
-                                    <ul>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/introduction">Introduction</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/whyusecloudcomputing">Why we use cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/usesofcloudcomputing">Uses of cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/prosandcons">Pros and Cons</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingarchitecture">Cloud Computing Architecture</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtechnologies">Cloud Computing Technologies</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/applicationsofcloudcomputing">Applications of cloud computing</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingrisk">Cloud Computing Risk</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtypes">Cloud computing types</a> </li>
-                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudservicemodel">Cloud service model</a> </li>
-                                    </ul>
-                                </div>
-                            </li>
-                             <li class="sidebar-dropdown">
+                              <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-server"></i> <span class="menu-text">Web Hosting</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
@@ -106,6 +90,7 @@
                                     </ul>
                                 </div>
                             </li>
+                            
                         </ul>
                     </div>
                     <!-- sidebar-menu  -->
@@ -126,51 +111,56 @@
                                 <a href="index.html" class="breadcrumb-back" title="Back"></a>
                                 <ol class="breadcrumb d-none d-lg-inline-flex m-0">
                                     <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/home"><i class="fa fa-home"></i></a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Servlet</li>
-                                    <li class="breadcrumb-item active" aria-current="page">service() | doGet() | doPost()</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Web Hosting</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Best Web Hosting Services</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
-                            <h1 class="mb-2 mt-3">service()</h1>
+                            <h1 class="mb-2 mt-3">Best web hosting services </h1>
                             <p>
-                                Each time the server receives a request for a servlet, the server spawns a new thread and calls service. The service() method checks the HTTP request type (GET, POST, PUT, DELETE, etc.) and calls doGet, doPost, doPut, doDelete, etc. methods as appropriate.
+                            <ul>
+                                <li>Hostinger </li>
+                                <li>GoDaddy</li>
+                                <li>HostGator</li>
+                                <li>BlueHost</li>
+                                <li>A2 Hosting</li>
+                                <li>webHostingPad</li>
+                                <li>Network Solutions </li>
+                                <li>HostPapa</li>
+                                <li>Domain.com</li>
+                                    
+                            </ul>
+                            </p>
+                               <h3 class="mb-2 mt-3"> some of the top names in the industry: </h3>
+                               <p>
+                               <ul>
+                                   <li><b>HostGator</b>
+                                       <p>One of the fastest load times we will find anywhere. It’s also got a 99.98% uptime guarantee (they’re often running at 100%). Not only that, HostGator’s packages are competitively priced, offer great customer support, and deliver an overall terrific user experience. Learn more about HostGator.</p>
+                                   </li>
+                                   <li><b>BlueHost</b>
+                                       <p>Only a close second to HostGator, Bluehost’s cloud service offers a 99.96% uptime guarantee and lags only a fraction of milliseconds behind. If we aren’t very up to speed on computer technologies, we’re going to appreciate Bluehost’s easy to use format that’s been designed to be user-friendly and intuitive. Check out Bluehost’s full review.</p></li>
+                                   <li><b>A2 Hosting</b>
+                                       <p>A2 Hosting boasts the fastest load time in the industry, clocking in at 361ms on average. They also have a 99.96% uptime guarantee and 24/7 US local customer support that’s available via phone or live chat, so we can reach them anytime, and we won't have to break our teeth to get an ansour. Find out more about A2 Hosting.
+
+</p></li>
+                               </ul>
+                               </p>
+                        
+                            <center> <img class="col-lg-12 col-xs-12 img-fluid mb-2 border-top" src="${pageContext.request.contextPath}/img/webhosting-08.jpg"/>   </center> 
+                            
+                            <hr class="my-5">
+                             <h3 class="mb-2 mt-3"> What are website hosting services and which is right for we?</h3>
+                         
+                            <p>
+                              Website hosting offerings are essentially the plot of internet land that our website storefront sits on. If we've got  a website, it desires to be at the web, and those hosting offerings are the landlords that placed up our website and maintain it strolling so our clients can access and spot it once they type for our URL.
                             </p>
                             <p>
-                                The term service method is used for any method in a servlet class that provides a service to a client. The general pattern for a service method is to extract information from the request, access external resources, and then populate the response, based on that information.
+                                There are different varieties of hosting services that cater to the various varieties of businesses. Some web hosting companies will construct our whole website, even as others will simply provide we with the plot of land and the shovel and depart we to it. Depending to our business model and size, we’ll choose a hosting company primarily based totally at the elements defined below. Once we apprehend the terminology, we may weigh capabilities and pick the carrier that works best on our company’s desires.
                             </p>
-                            <p>
-                                The differences between the doGet() and doPost() methods are that they are called in the HttpServlet that your servlet extends by its service() method when it recieves a GET or a POST request from a HTTP protocol request. ... The GenericServlet has a service() method that gets called when a client request is made.
-                            </p>
-                            
-                            <hr class="my-2">
-                            
-                            <p class="lead mb-2"> WHO calls doGet () and doPost () method? </p>
-                            <p>
-                                The Servlet Life Cycle is the entire process of its creation till the destruction. servlet web container maintains the servlet lifecycle. Three methods are central to the life cycle of a servlet. These are init(),service() and destroy().
-                            </p>
-                            <p>
-                                The client's request, remember, always includes a specific HTTP Method. If the HTTP Method is a GET, the service() method calls doGet(). If the HTTP request Method is a POST, the service() method calls doPost().
-                            </p>
-                            
-                            <hr class="my-2">
-                            
-                            <h2 class="mb-2 mt-2">doGet()</h2>
-                            <p>
-                                Unlike Generic Servlet, the HTTP Servlet doesn't override the service() method. Instead it overrides the doGet() method or doPost() method or both. The doGet() method is used for getting the information from server while the doPost() method is used for sending information to the server.
-                            </p>
-                            <img class="col-lg-6 col-xs-12 img-fluid border" src="${pageContext.request.contextPath}/img/servlet-4.png"/>
-                            
-                            <hr class="my-2">
-                            
-                            <h2 class="mb-2 mt-2">doPost()</h2>
-                            <p>
-                               protected void doPost(HttpServletRequest req, HttpServletResponse resp): This method is called by servlet service method to handle the POST request from client. ... Unlike, doGet where we get information from the sever this method is used when we are transferring information from client to the server.
-                            </p>
-                            
-                            <img class="col-lg-8 col-xs-12 img-fluid border mb-3" src="${pageContext.request.contextPath}/img/servlet-3.png"/>
+                            <hr class="my-5">
                         </article>
                     </div>
                 </div>
