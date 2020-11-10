@@ -80,7 +80,6 @@
         <servlet-name>MySQL</servlet-name>
         <servlet-class>servlet.database.MySQL</servlet-class>
     </servlet>
-    
     <!-- WebHosting Servlet-->
     <servlet>
         <servlet-name>WebHostingIntroduction</servlet-name>
@@ -126,8 +125,28 @@
         <servlet-name>PayForWebHosting</servlet-name>
         <servlet-class>servlet.webhosting.PayForWebHosting</servlet-class>
     </servlet>
-    
-    <!--   -->
+    <!-- Languages Servlets   -->
+    <servlet>
+        <servlet-name>Introduction</servlet-name>
+        <servlet-class>servlet.languages.Introduction</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Characteristics</servlet-name>
+        <servlet-class>servlet.languages.Characteristics</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Factors</servlet-name>
+        <servlet-class>servlet.languages.Factors</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Programming</servlet-name>
+        <servlet-class>servlet.languages.Programming</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Languages</servlet-name>
+        <servlet-class>servlet.languages.Languages</servlet-class>
+    </servlet>
+    <!--Servlet Mapping Area-->
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -207,9 +226,8 @@
         <servlet-name>MySQL</servlet-name>
         <url-pattern>/database/mysql</url-pattern>
     </servlet-mapping>
-    
     <!--WebHosting Servlet Mapping-->
-     <servlet-mapping>
+    <servlet-mapping>
         <servlet-name>WebHostingIntroduction</servlet-name>
         <url-pattern>/webhosting/introduction</url-pattern>
     </servlet-mapping>
@@ -253,7 +271,27 @@
         <servlet-name>PayForWebHosting</servlet-name>
         <url-pattern>/webhosting/Pay-for-web-hosting</url-pattern>
     </servlet-mapping>
-    <!--  -->
+    <!--Languages Mapping  -->
+    <servlet-mapping>
+        <servlet-name>Introduction</servlet-name>
+        <url-pattern>/languages/Introduction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Characteristics</servlet-name>
+        <url-pattern>/languages/Characteristics</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Factors</servlet-name>
+        <url-pattern>/languages/Factors</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Programming</servlet-name>
+        <url-pattern>/languages/Programming</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Languages</servlet-name>
+        <url-pattern>/languages/Languages</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
