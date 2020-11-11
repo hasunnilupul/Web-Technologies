@@ -94,8 +94,8 @@
                                     </ul>
                                 </div>
                             </li>
-                            
-                             <li class="sidebar-dropdown">
+
+                            <li class="sidebar-dropdown">
                                 <a> <i class="fa fa-server"></i> <span class="menu-text">Web Hosting</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
@@ -113,7 +113,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            
+
                             <li class="sidebar-dropdown">
                                 <a> <i class="fa fa-file"></i> <span class="menu-text">Programming Language</span></a>
                                 <div class="sidebar-submenu">
@@ -136,7 +136,7 @@
             <!-- page-content  -->
             <main class="page-content">
                 <div id="overlay" class="overlay"></div>
-                <div class="container-fluid">
+                <div class="container-fluid p-0">
                     <div class="row d-flex align-items-center p-3 border-bottom">
                         <div class="col-md-1">
                             <a id="toggle-sidebar" class="btn rounded-0 p-3" href="#"> <i class="fas fa-bars"></i> </a>
@@ -172,10 +172,138 @@
                         </a>
                         <div id="google_translate_element2"></div>
                     </div>
-                    <div class="row ml-lg-2 mr-lg-1">
+                    <div class="row">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
+                            <div class="col-lg-12 col-md-12 col-sm-12 m-0 p-0 home-header-img-container">
+                                <div class="home-header-img-fade d-flex align-items-center text-center">
+                                    <div>
+                                        <h1 class="text-white col-12 mt-3" style="font-size: 10vw">Welcome to Web Technologies</h3>
+                                            <h4 class="col-12 pt-5" style="color: #007bff">Get Started</h4>
+                                            <a href="#get-started" class="nowrap"><i class="fa fa-chevron-circle-down fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Get Started Content -->
+                            <div id="get-started" class="row m-2">
+                                <h1 class="col-12 mt-3 mb-0 text-center font-weight-bold">Get Started</h1>
+                                <p class="col-12 text-center mb-4">Some technologies used in Web Development</p>
 
-                            <h3 class="text-center">Welcome to Web Technologies</h3>
+                                <div class="col-lg-3 mb-3">
+                                    <a href="${pageContext.request.contextPath}/ajax/ajaxintroduction" class="text-decoration-none text-danger">
+                                        <div class="card">
+                                            <img
+                                                src="${pageContext.request.contextPath}/img/ajax.png"
+                                                class="card-img-top"
+                                                alt="..."
+                                                />
+                                            <div class="card-body">
+                                                <h5 class="card-title">AJAX</h5>
+                                                <hr class="my-2">
+                                                <p class="card-text">
+                                                    Asynchronous JavaScript And XML. AJAX is not a programming language.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 mb-3">
+                                    <a href="${pageContext.request.contextPath}/cloudcomputing/introduction" class="text-decoration-none text-primary">
+                                        <div class="card">
+                                            <img
+                                                src="${pageContext.request.contextPath}/img/cloud-computing.jpg"
+                                                class="card-img-top"
+                                                alt="..."
+                                                />
+                                            <div class="card-body">
+                                                <h5 class="card-title">Cloud Computing</h5>
+                                                <hr class="my-2">
+                                                <p class="card-text">
+                                                    Cloud computing is the on-demand availability of computer system resources, 
+                                                    especially data storage (cloud storage) and computing power, without direct active management 
+                                                    by the user.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3  mb-3">
+                                    <a href="${pageContext.request.contextPath}/database/introduction" class="text-decoration-none text-violet">
+                                        <div class="card">
+                                            <img
+                                                src="${pageContext.request.contextPath}/img/database.png"
+                                                class="card-img-top"
+                                                alt="..."
+                                                />
+                                            <div class="card-body">
+                                                <h5 class="card-title">Database</h5>
+                                                <p class="card-text">
+                                                    A database is a collection of information that is organized so that it
+                                                    can be easily accessed, managed and updated.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 mb-3">
+                                    <a href="${pageContext.request.contextPath}/languages/Introduction" class="text-decoration-none text-dark">
+                                        <div class="card">
+                                            <img
+                                                src="${pageContext.request.contextPath}/img/programming-languages.jpg"
+                                                class="card-img-top"
+                                                alt="..."
+                                                />
+                                            <div class="card-body">
+                                                <h5 class="card-title">Programming Language</h5>
+                                                <p class="card-text">
+                                                    The term programming language usually refers to high-level languages, such as 
+                                                    BASIC, C, C++, COBOL, Java, FORTRAN, Ada, and Pascal. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 mb-3">
+                                    <a href="${pageContext.request.contextPath}/servlet/introduction" class="text-decoration-none text-warning">
+                                        <div class="card">
+                                            <img
+                                                src="${pageContext.request.contextPath}/img/servlet.png"
+                                                class="card-img-top"
+                                                alt="..."
+                                                />
+                                            <div class="card-body">
+                                                <h5 class="card-title">Servlet</h5>
+                                                <p class="card-text">
+                                                    A servlet is a small Java program that runs within a Web server. Servlets receive 
+                                                    and respond to requests from Web clients, usually across HTTP, the HyperText Transfer Protocol.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                                <div class="col-lg-3 mb-3">
+                                    <a href="${pageContext.request.contextPath}/webhosting/introduction" class="text-decoration-none text-info">
+                                        <div class="card">
+                                            <img
+                                                src="${pageContext.request.contextPath}/img/web-hosting.jpg"
+                                                class="card-img-top"
+                                                alt="..."
+                                                />
+                                            <div class="card-body">
+                                                <h5 class="card-title">Web Hosting</h5>
+                                                <p class="card-text">
+                                                    A web hosting service is a type of Internet hosting service that allows
+                                                    individuals and organizations to make their website accessible via the World Wide Web.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
 
                         </article>
                     </div>
@@ -185,7 +313,7 @@
 
         </div>
         <!-- page-wrapper -->
-        
+
         <!-- scripts -->
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.js"></script>

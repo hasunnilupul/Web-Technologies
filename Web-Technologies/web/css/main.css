@@ -7989,6 +7989,12 @@ a.text-light:hover, a.text-light:focus {
 a.text-dark:hover, a.text-dark:focus {
     color: #121416 !important; }
 
+.text-violet {
+    color: #6610f2 !important; }
+
+a.text-violet:hover, a.text-violet:focus {
+    color: #681082 !important; }
+
 .text-body {
     color: #212529 !important; }
 
@@ -8732,6 +8738,17 @@ body {
 .alert {
     padding: 1.3rem !important;
     margin-bottom: 2rem; }
+
+.home-header-img-container{
+    background-image: url(.../img/web-tech-1.png);
+    height: 86.5vh;
+}
+
+.home-header-img-fade{
+    background-color: #000;
+    opacity: 0.7;
+    height: 86.5vh;
+}
 
 /* -- Google Translate -- */
 
