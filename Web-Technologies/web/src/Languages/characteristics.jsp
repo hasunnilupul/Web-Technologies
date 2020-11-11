@@ -42,12 +42,10 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-shopping-cart"></i> <span class="menu-text">Menu 1</span></a>
+                                <a href="#"> <i class="fa fa-sync-alt"></i> <span class="menu-text">AJAX</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li> <a href="#">Sub Menu 1</a> </li>
-                                        <li> <a href="#">Sub Menu 2</a> </li>
-                                        <li> <a href="#">Sub Menu 3</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/ajax/ajaxintroduction">Introduction</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -58,6 +56,7 @@
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/importance">Importance & Benifits</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/database/types-of-technologies">Types of Technologies</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/database/mysql">MySQL</a> </li>
                                     </ul>
                                 </div>
                             </li>
@@ -72,7 +71,42 @@
                                     </ul>
                                 </div>
                             </li>
-                             <li class="sidebar-dropdown">
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/introduction">Introduction</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/whyusecloudcomputing">Why we use cloud computing</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/usesofcloudcomputing">Uses of cloud computing</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/prosandcons">Pros and Cons</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingarchitecture">Cloud Computing Architecture</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtechnologies">Cloud Computing Technologies</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/applicationsofcloudcomputing">Applications of cloud computing</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingrisk">Cloud Computing Risk</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudcomputingtypes">Cloud computing types</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/cloudcomputing/cloudservicemodel">Cloud service model</a> </li>
+                                    </ul>
+                                </div>
+                            </li>
+                              <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-server"></i> <span class="menu-text">Web Hosting</span></a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/introduction">Introduction</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/Types-of-web-hosting">Types Of Web Hosting</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/Best-web-hosting-services">Best Web Hosting Services</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/Web-hosting-company">How TO Choose A Company</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/Hosting-quality">Hosting Quality</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/Web-hosting-pricing-and-value">Web Hosting Pricing And Value</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/Web-hosting-and-domain-hosting">Web Hosting And Domain Hosting</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/bye-a-domain-name">Bye A Domain Name</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/DNS">DNS</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/Pick-web-host">Pick Web Host</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/webhosting/Pay-for-web-hosting">Pay For Web Hosting</a> </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
                                 <a href="#"> <i class="fa fa-file"></i> <span class="menu-text">Programming Language</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
@@ -85,6 +119,7 @@
                                     </ul>
                                 </div>
                             </li>
+                            
                         </ul>
                     </div>
                     <!-- sidebar-menu  -->

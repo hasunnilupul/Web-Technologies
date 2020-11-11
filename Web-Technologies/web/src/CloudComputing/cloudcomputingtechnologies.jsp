@@ -112,6 +112,20 @@
                                     </ul>
                                 </div>
                             </li>
+                            
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-file"></i> <span class="menu-text">Programming Language</span></a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li> <a href="${pageContext.request.contextPath}/languages/Introduction">Introduction</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/languages/Characteristics">The characteristics of a programming language</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/languages/Factors">Factors to be considered when choosing a programming language</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/languages/Programming">Programming</a> </li>
+                                        <li> <a href="${pageContext.request.contextPath}/languages/Languages">Programming languages</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <!-- sidebar-menu  -->
