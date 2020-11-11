@@ -22,7 +22,7 @@
         <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
     </head>
     <body>
-        <div class="page-wrapper toggled light-theme">            
+        <div class="page-wrapper light-theme">            
             <!-- Navigation Menu -->
             <nav id="sidebar" class="sidebar-wrapper">
                 <div class="sidebar-content">
@@ -123,7 +123,6 @@
                                         <li> <a href="${pageContext.request.contextPath}/languages/Factors">Factors to be considered when choosing a programming language</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/languages/Programming">Programming</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/languages/Languages">Programming languages</a></li>
-                                        
                                     </ul>
                                 </div>
                             </li>
@@ -150,6 +149,10 @@
                                 </ol>
                             </nav>
                         </div>
+                        <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="English" /></a><a href="#" onclick="doGTranslate('en|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="French" /></a><a href="#" onclick="doGTranslate('en|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="German" /></a><a href="#" onclick="doGTranslate('en|it');return false;" title="Italian" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Italian" /></a><a href="#" onclick="doGTranslate('en|pt');return false;" title="Portuguese" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Portuguese" /></a><a href="#" onclick="doGTranslate('en|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Russian" /></a><a href="#" onclick="doGTranslate('en|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;">
+                            <img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Spanish" />
+                        </a>
+                        <div id="google_translate_element2"></div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
@@ -164,6 +167,7 @@
 
         </div>
         <!-- page-wrapper -->
+        
         <!-- scripts -->
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.js"></script>
