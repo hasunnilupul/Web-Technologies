@@ -8221,7 +8221,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: #5cb85c; }
 
 .sidebar-wrapper .sidebar-search > div {
-    padding: 1rem 1.2rem; }
+    padding: 1rem 1.2rem;
+    display: none;
+}
 
 .sidebar-wrapper .sidebar-search input {
     border-radius: 0; }
@@ -8255,7 +8257,8 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 8px 30px 8px 20px;
     width: 95%;
     margin: auto;
-    border-radius: 4px; }
+    border-radius: 4px;
+    cursor: pointer;}
 .sidebar-wrapper .sidebar-menu ul li a:hover > i::before {
     display: inline-block;
     -webkit-animation: swing ease-in-out .5s 1 alternate;
@@ -8729,3 +8732,13 @@ body {
 .alert {
     padding: 1.3rem !important;
     margin-bottom: 2rem; }
+
+/* -- Google Translate -- */
+a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}

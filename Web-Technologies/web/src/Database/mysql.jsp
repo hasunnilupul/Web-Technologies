@@ -93,8 +93,8 @@
                                     </ul>
                                 </div>
                             </li>
-                            
-                             <li class="sidebar-dropdown">
+
+                            <li class="sidebar-dropdown">
                                 <a> <i class="fa fa-server"></i> <span class="menu-text">Web Hosting</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
@@ -112,7 +112,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            
+
                             <li class="sidebar-dropdown">
                                 <a> <i class="fa fa-file"></i> <span class="menu-text">Programming Language</span></a>
                                 <div class="sidebar-submenu">
@@ -122,7 +122,7 @@
                                         <li> <a href="${pageContext.request.contextPath}/languages/Factors">Factors to be considered when choosing a programming language</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/languages/Programming">Programming</a> </li>
                                         <li> <a href="${pageContext.request.contextPath}/languages/Languages">Programming languages</a></li>
-                                        
+
                                     </ul>
                                 </div>
                             </li>
@@ -151,15 +151,21 @@
                                 </ol>
                             </nav>
                         </div>
+                        <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="English" /></a><a href="#" onclick="doGTranslate('en|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="French" /></a><a href="#" onclick="doGTranslate('en|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="German" /></a><a href="#" onclick="doGTranslate('en|it');return false;" title="Italian" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Italian" /></a><a href="#" onclick="doGTranslate('en|pt');return false;" title="Portuguese" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Portuguese" /></a><a href="#" onclick="doGTranslate('en|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Russian" /></a><a href="#" onclick="doGTranslate('en|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;">
+                            <img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Spanish" />
+                        </a>
+                        <div id="google_translate_element2"></div>
                     </div>
                     <div class="row ml-lg-2 mr-lg-1">
                         <article class="main-content col-lg-12 col-md-12 col-xs-12">
                             <h1 class="mb-2 mt-3">MySQL</h1>
+
+                            <img class=" img-fluid mb-2 mt-2" src="${pageContext.request.contextPath}/img/database-4.png"/>
                             <p>
                                 MySQL is an open-sourced relational database management system (RDMS) SQL Database, MySQL is used in WordPress, Joomla websites and also used in small to large scale projects. A relational database organize data into one or more tables of data in which data types may be related to each other, and these relationships help to structure the data.
                             </p>
 
-                            <h3 class="mb-2 mt-3">History :</h2>
+                            <h3 class="mb-2 mt-3"><i class="fas fa-history"></i> History :</h2>
                                 <p>
                                     MySQL AB, a Swedish organization is credited with being the author of MySQL database worker. Three designers: two Swedish, named David Axmark and Allan Larsson and one Finn, named Micheal Widenius, ordinarily known as "Monty" began chip away at the improvement of MySQL worker on May 23, 1995. The delivered the principal MySQL form on a similar date. 
                                 </p>
@@ -168,53 +174,52 @@
                                 </p>
 
                                 <hr class="my-2">
-
                                 <ol class="list-unstyled">
                                     <h3 class="mb-3 mt-2">Advantages</h3>
                                     <li>
-                                        <p class="lead font-weight-bold">Data Security</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-laugh-beam" style="color: #66ff66"></i> Data Security</p>
                                         <p>
                                             MySQL is all around the world famous for being the most secure and solid database the board framework utilized in well known web applications like WordPress, Drupal, Joomla, Facebook and Twitter. The information security and backing for conditional handling that go with the ongoing rendition of MySQL, can significantly profit any business particularly on the off chance that it is an eCommerce business that includes incessant cash moves.
                                         </p>
                                     </li>
                                     <li>
-                                        <p class="lead font-weight-bold">On-Demand Scalability</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-laugh-beam" style="color: #66ff66"></i> On-Demand Scalability</p>
                                         <p>
                                             MySQL offers unparalleled versatility to encourage the administration of profoundly installed applications utilizing a more modest impression even in enormous stockrooms that stack terabytes of information. On-request adaptability is the star highlight of MySQL. This open source arrangement permits total customization to eCommerce organizations with extraordinary database worker necessities.
                                         </p>
                                     </li>
                                     <li>
-                                        <p class="lead font-weight-bold">High Performance</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-laugh-beam" style="color: #66ff66"></i> High Performance</p>
                                         <p>
                                             MySQL highlights an unmistakable stockpiling motor framework that encourages framework heads to design the MySQL database worker for a perfect exhibition. Regardless of whether it is an eCommerce website that gets 1,000,000 inquiries each and every day or a rapid conditional handling framework, MySQL is intended to meet even the most requesting applications while guaranteeing ideal speed, full-text records and interesting memory reserves for improved execution.
                                         </p>
                                     </li>
                                     <li>
-                                        <p class="lead font-weight-bold">On-Demand Scalability</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-laugh-beam" style="color: #66ff66"></i> On-Demand Scalability</p>
                                         <p>
                                             MySQL accompanies the affirmation of 24X7 uptime and offers a wide scope of high accessibility arrangements like particular cluster servers and ace/slave replication setups.    
                                         </p>
                                     </li>
                                     <li>
-                                        <p class="lead font-weight-bold">Comprehensive Transactional Support</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-laugh-beam" style="color: #66ff66"></i> Comprehensive Transactional Support</p>
                                         <p>
                                             MySQL tops the rundown of powerful conditional database motors accessible available. With highlights like total nuclear, predictable, disengaged, tough exchange uphold, multi-rendition exchange uphold, and unhindered column level locking, it is the go-to answer for full information trustworthiness. It ensures moment halt distinguishing proof through worker authorized referential respectability.
                                         </p>
                                     </li>
                                     <li>
-                                        <p class="lead font-weight-bold">Reduced Total Cost of Ownership</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-laugh-beam" style="color: #66ff66"></i> Reduced Total Cost of Ownership</p>
                                         <p>
                                             By relocating current database applications to MySQL, endeavors are getting a charge out of critical cost reserve funds on new activities. The reliability and simplicity of the board that go with MySQL spare your investigating time which is generally squandered in fixing personal time issues and execution issues.
                                         </p>
                                     </li>
                                     <li>
-                                        <p class="lead font-weight-bold">Complete Work-flow Control</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-laugh-beam" style="color: #66ff66"></i> Complete Work-flow Control</p>
                                         <p>
                                             With the normal download and establishment time being under 30 minutes, MySQL implies ease of use from the very first moment. Regardless of whether your foundation is Linux, Microsoft, Macintosh or UNIX, MySQL is a far reaching arrangement with self-administration includes that robotize everything from space development and setup to information plan and database organization.
                                         </p>
                                     </li>
                                     <li>
-                                        <p class="lead font-weight-bold">The Flexibility of Open-Source</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-laugh-beam" style="color: #66ff66"></i> The Flexibility of Open-Source</p>
                                         <p>
                                             All the apprehensions and stresses that emerge in an open source arrangement can be finished with MySQL's nonstop help and venture repayment. The safe handling and believed programming of MySQL join to give successful exchanges to enormous volume ventures. It makes support, investigating and updates quick and simple while upgrading the end-client experience.
                                         </p>
@@ -226,19 +231,19 @@
                                 <h3 class="mb-3 mt-2">Disadvantages</h3>
                                 <ol class="list-unstyled">
                                     <li>
-                                        <p class="lead font-weight-bold">Stability Issues</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-sad-tear" style="color: #ff6666"></i> Stability Issues</p>
                                     </li>
                                     <p>
                                         As indicated by Digital Ocean, MySQL will in general be to some degree less dependable than its friends. These solidness issues are identified with the way in which it handles certain capacities, (for example, references, exchanges, and inspecting). While the database is unquestionably still usable considering these issues, they do will in general settle on MySQL a helpless decision for certain utilization cases.
                                     </p>
                                     <li>
-                                        <p class="lead font-weight-bold">Development is not Community Driven</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-sad-tear" style="color: #ff6666"></i> Development is not Community Driven</p>
                                         <p>
                                             Since Oracle has taken the helm of MySQL’s development, progress appears to have ground to a halt, with only one major release in the past several years. The company doesn’t accept community-developed patches, nor has it bothered to offer users any sort of roadmap for MySQL development. There’s really no way for developers to discuss the database management system with Oracle – and that’s a problem.
                                         </p>
                                     </li>
                                     <li>
-                                        <p class="lead font-weight-bold">Functionality tends to be heavily depends on Addons</p>
+                                        <p class="lead font-weight-bold"><i class="far fa-sad-tear" style="color: #ff6666"></i> Functionality tends to be heavily depends on Addons</p>
                                         <p>
                                             In spite of the fact that MySQL is generally simple to set up, it will in general have less out-of-the-case usefulness than numerous other database frameworks available. Certain highlights –, for example, text search and ACID consistence – are dependant not on the center motor but rather on applications and additional items. While the facts demonstrate that there exists a plenty of all around made applications for MySQL, finding them can now and then be an agony, and might make a few engineers just pick an elective which – while not as handily introduced – offers more prompt usefulness.
                                         </p>
