@@ -8753,7 +8753,7 @@ body {
 /* -- Google Translate -- */
 
 a.gflag {
-    display:none;
+    display:none !important;
 }
 
 #google_translate_element2 {
@@ -8761,7 +8761,7 @@ a.gflag {
 }
 @media screen and (min-width: 701px) {
     a.gflag {
-        display:block;
+        display:none;
         vertical-align:middle;
         font-size:16px;
         padding:1px 0;
