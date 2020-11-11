@@ -48,7 +48,7 @@
                     <div class=" sidebar-item sidebar-menu">
                         <ul>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-sync-alt"></i> <span class="menu-text">AJAX</span></a>
+                                <a> <i class="fa fa-sync-alt"></i> <span class="menu-text">AJAX</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/ajax/ajaxintroduction">Introduction</a> </li>
@@ -56,7 +56,7 @@
                                 </div>
                             </li>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
+                                <a> <i class="fa fa-database"></i> <span class="menu-text">Database</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/database/introduction">Introduction</a> </li>
@@ -67,7 +67,7 @@
                                 </div>
                             </li>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-file"></i> <span class="menu-text">Servlet</span></a>
+                                <a> <i class="fa fa-file"></i> <span class="menu-text">Servlet</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/servlet/introduction">Introduction</a> </li>
@@ -78,7 +78,7 @@
                                 </div>
                             </li>
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
+                                <a> <i class="fa fa-cloud" aria-hidden="true"></i> <span class="menu-text">Cloud Computing</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/cloudcomputing/introduction">Introduction</a> </li>
@@ -96,7 +96,7 @@
                             </li>
                             
                              <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-server"></i> <span class="menu-text">Web Hosting</span></a>
+                                <a> <i class="fa fa-server"></i> <span class="menu-text">Web Hosting</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/webhosting/introduction">Introduction</a> </li>
@@ -113,8 +113,9 @@
                                     </ul>
                                 </div>
                             </li>
+                            
                             <li class="sidebar-dropdown">
-                                <a href="#"> <i class="fa fa-file"></i> <span class="menu-text">Programming Language</span></a>
+                                <a> <i class="fa fa-file"></i> <span class="menu-text">Programming Language</span></a>
                                 <div class="sidebar-submenu">
                                     <ul>
                                         <li> <a href="${pageContext.request.contextPath}/languages/Introduction">Introduction</a> </li>
